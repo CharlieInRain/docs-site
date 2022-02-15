@@ -2,10 +2,10 @@
 
 ## Architecture
 
-A native cross chain communication protocol is developed between BC (Binance Chain) and BSC (Binance Side Chain). It has the following key parts:
+A native cross chain communication protocol is developed between BC (BNB Beacon Chain) and BSC (Binance Side Chain). It has the following key parts:
 
 * [Build-in System Contract](system-contract.md)
-* [Oracle on Binance Chain](oracle-module.md)
+* [Oracle on BNB Beacon Chain](oracle-module.md)
 * [BSC Relayer](bsc-relayer.md)
 * [BSC Relayer Incentive Mechanism](incentives.md)
 * [Oracle Relayer](oracle-relayer.md)

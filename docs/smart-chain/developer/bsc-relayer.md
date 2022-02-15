@@ -2,7 +2,7 @@
 
 ## Prepare Fund
 
-1. Make sure that you have enough BNB in your account. You can get from [faucet](https://testnet.binance.org/faucet-smart)
+1. Make sure that you have enough BNB in your account. You can get from [faucet](https://testnet.bnbchain.world/faucet-smart)
 
 If you haven't created your account yet, please follow these [guides](../wallet/metamask.md) to create one first.
 
@@ -33,9 +33,9 @@ Get example config from this url: <https://github.com/binance-chain/bsc-relayer/
 
 Edit`config.json` and fill your BSC private key to bsc_config.private_key, example private key: `AFD8C5D83F148065176268A9D1EE375A10CEE1E74D15985D4CC63E467EC34DA5`
 
-* Binance Chain Configuration:
+* BNB Beacon Chain Configuration:
 	* `mnemonic`: Paste the recovery phrase here. Since bsc-relayer will automaticly submit `double-sign` evidence, if it's committed, the reward will be sent to this address
-* Binance Smart Chain Configuration:
+* BNB Smart Chain Configuration:
 *
 
 ## Start Relayer

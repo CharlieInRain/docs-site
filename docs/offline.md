@@ -21,7 +21,7 @@ Then, you can see that the signature of unsigned.json is empty.
 
 ## Sign your transaction
 
-You can view the unsigned.json to verify that all the info about this transaction is correct. You need to get the account-number and sequence about your address here: https://docs.binance.org/api-reference/dex-api/paths.html#apiv1accountaddress
+You can view the unsigned.json to verify that all the info about this transaction is correct. You need to get the account-number and sequence about your address here: https://docs.bnbchain.world/api-reference/dex-api/paths.html#apiv1accountaddress
 
 You can sign an unsigned transfer transaction on testnet:
 ```
@@ -52,4 +52,4 @@ You can broadcast your transaction on mainnet:
 
 You can find the list of nodes [here](/api-reference/cli.html#where-to-connect)
 
-If the broadcast is successful, you will see the transaction hash in returned info. Please go and verify it in [Explorer](https://testnet-explorer.binance.org).
+If the broadcast is successful, you will see the transaction hash in returned info. Please go and verify it in [Explorer](https://testnet-explorer.bnbchain.world).

@@ -40,7 +40,7 @@ Usage:
 
 Flags:
       --cache-size int             Specify the memory trust store cache size (default 10)
-      --chain-id string            Specify the binance chain ID (default "bnbchain")
+      --chain-id string            Specify the BNB Beacon Chain ID (default "bnbchain")
   -h, --help                       help for lite
       --home-dir string            Specify the home directory (default ".binance-lite")
       --laddr string               Serve the proxy on the given address (default "tcp://localhost:27147")

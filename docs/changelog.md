@@ -1,7 +1,7 @@
 CHANGELOG
 ========
 
-## Upcoming Changes in Binance Chain Mainnet API - 2021-06-04
+## Upcoming Changes in BNB Beacon Chain Mainnet API - 2021-06-04
 
 ### HTTP API
 
@@ -19,7 +19,7 @@ The following changes will take effect.
 * DEPOSIT_HTL HTL_TRANSFER, SIDE_DEPOSIT, TIME_LOCK, TIME_RELOCK, TRANSFER can relate to multiple assets, you can search by any of them.
 
 
-## Upcoming Changes in Binance Chain Mainnet API v0.7.2
+## Upcoming Changes in BNB Beacon Chain Mainnet API v0.7.2
 
 ### Node RPC
 
@@ -90,7 +90,7 @@ Gets a list of available mini tokens.
 
 | Name | Type | Description | Example |
 | ---- | ---- | ----------- | ------- |
-| name | string |  | Binance Chain Mini Token |
+| name | string |  | BNB Beacon Chain Mini Token |
 | symbol | string |  | BTC-000 |
 | original_symbol | string |  | BTC |
 | total_supply | string (fixed8) | In decimal form, e.g. 1.00000000 | 0.00000000 |
@@ -207,7 +207,7 @@ Get market trades of mini-token pairs.
 | total | long | total number of trades |  |
 | trade | [ [Trade]() ] |  |  |
 
-## Upcoming Changes in Binance Chain Testnet API v0.7.0
+## Upcoming Changes in BNB Beacon Chain Testnet API v0.7.0
 
 ### Node RPC
 
@@ -278,7 +278,7 @@ Gets a list of available mini tokens.
 
 | Name | Type | Description | Example |
 | ---- | ---- | ----------- | ------- |
-| name | string |  | Binance Chain Mini Token |
+| name | string |  | BNB Beacon Chain Mini Token |
 | symbol | string |  | BTC-000 |
 | original_symbol | string |  | BTC |
 | total_supply | string (fixed8) | In decimal form, e.g. 1.00000000 | 0.00000000 |
@@ -395,7 +395,7 @@ Get market trades of mini-token pairs.
 | total | long | total number of trades |  |
 | trade | [ [Trade]() ] |  |  |
 
-## Upcoming Changes in Binance Chain API v0.6.4
+## Upcoming Changes in BNB Beacon Chain API v0.6.4
 
 ### HTTP API
 
@@ -444,7 +444,7 @@ Add `buyerSource` and `sellerSource` in the response Trade data structure. The S
 | time | long | trade time |  |
 | tradeId | string | trade ID |  |
 
-## Upcoming Changes in Binance Chain API v0.6.3
+## Upcoming Changes in BNB Beacon Chain API v0.6.3
 
 ### HTTP API
 
@@ -482,7 +482,7 @@ In the `AtomicSwap` data structure:
 
 ### WebSocket
 
-As described in https://docs.binance.org/api-reference/dex-api/ws-streams.html#6-book-depth-streams, you can now customize the returned level from orderbook. The default level is 20 and you can extend the level to 100, 500, or 1000 with compression enabled.
+As described in https://docs.bnbchain.world/api-reference/dex-api/ws-streams.html#6-book-depth-streams, you can now customize the returned level from orderbook. The default level is 20 and you can extend the level to 100, 500, or 1000 with compression enabled.
 
 * Example on mainnet:
 ```
@@ -609,7 +609,7 @@ type ResponseEndBlock struct {
 }
 ```
 
-## Upcoming Changes in Binance Chain API v0.6.2
+## Upcoming Changes in BNB Beacon Chain API v0.6.2
 
 ### HTTP API
 
@@ -672,11 +672,11 @@ This new function is for getting the timelock history of an address by id.
 | amount | [  ] |  |  |
 | locktime | string | The available unlock time |  |
 
-## Upcoming Changes in Binance Chain API v0.6.1
+## Upcoming Changes in BNB Beacon Chain API v0.6.1
 
 ### HTTP API
 
-As you know, There are some accelerate nodes which provides some advanced API services for the public. Here is a list of all the HTTP API information it provides on mainnet: https://docs.binance.org/api-reference/dex-api/paths.html
+As you know, There are some accelerate nodes which provides some advanced API services for the public. Here is a list of all the HTTP API information it provides on mainnet: https://docs.bnbchain.world/api-reference/dex-api/paths.html
 
 In the latest update of HTTP API for testnet, there are the following changes:
 
@@ -698,11 +698,11 @@ In the `Account` data structure, a new field `flags` is added to indicate the co
 | flags | integer | indicate additional check for this account|  |
 | sequence | long | sequence is for preventing replay attack |  |
 
-## Upcoming Changes in Binance Chain API v0.6.0
+## Upcoming Changes in BNB Beacon Chain API v0.6.0
 
 ### HTTP API
 
-As you know, There are some accelerate nodes which provides some advanced API services for the public. Here is a list of all the HTTP API information it provides on mainnet: https://docs.binance.org/api-reference/dex-api/paths.html
+As you know, There are some accelerate nodes which provides some advanced API services for the public. Here is a list of all the HTTP API information it provides on mainnet: https://docs.bnbchain.world/api-reference/dex-api/paths.html
 
 In the latest update of HTTP API for testnet, there are the following changes:
 
@@ -838,7 +838,7 @@ In received Payload of `trades`, a new filed `tt` is added. Its enumerate values
 
 ### Extra data from your fullnode
 
-All those [extra info](https://docs.binance.org/get-extra-data-from-fullnode.html#publish-different-messages-to-local-files ) can also be found in exported data from your fullnode.
+All those [extra info](https://docs.bnbchain.world/get-extra-data-from-fullnode.html#publish-different-messages-to-local-files ) can also be found in exported data from your fullnode.
 
 ***Changes***
 

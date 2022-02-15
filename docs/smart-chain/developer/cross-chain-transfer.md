@@ -19,7 +19,7 @@ tbnbcli token info --symbol BNB --trust-node --node http://data-seed-pre-0-s3.bi
 {
   "type": "bnbchain/Token",
   "value": {
-    "name": "Binance Chain Native Token",
+    "name": "BNB Beacon Chain Native Token",
     "symbol": "BNB",
     "original_symbol": "BNB",
     "total_supply": "200000000.00000000",

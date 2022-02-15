@@ -76,10 +76,6 @@ BC RPC Endpoints:
 
 The rate limit of BSC endpoint on Testnet and Mainnet is 10K/5min.
 
-### RPC Aggregators
-
-[BSCrpc.com](http://bscrpc.com/) - No rate limit, 1 million / req per day per project
-
 ### 3rd Party Provider
 
 * [Moralis](https://moralis.io/): <https://moralis.io/speedy-nodes/>

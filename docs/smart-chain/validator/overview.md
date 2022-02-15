@@ -1,12 +1,12 @@
-# Binance Smart Chain Validator Overview
+# BNB Smart Chain Validator Overview
 
-## What is Binance Smart Chain?
+## What is BNB Smart Chain?
 
-Binance Smart Chain is an innovative solution to bring programmability and interoperability to Binance Chain. Binance Smart Chain relies on a system of 21 validators with [Proof of Staked Authority (PoSA) consensus](https://github.com/binance-chain/whitepaper/blob/master/WHITEPAPER.md#consensus-and-validator-quorum) that can support short block time and lower fees. The most bonded validator candidates of staking will become validators and produce blocks. The double-sign detection and other slashing logic guarantee security, stability, and chain finality.
+BNB Smart Chain is an innovative solution to bring programmability and interoperability to BNB Beacon Chain. BNB Smart Chain relies on a system of 21 validators with [Proof of Staked Authority (PoSA) consensus](https://github.com/binance-chain/whitepaper/blob/master/WHITEPAPER.md#consensus-and-validator-quorum) that can support short block time and lower fees. The most bonded validator candidates of staking will become validators and produce blocks. The double-sign detection and other slashing logic guarantee security, stability, and chain finality.
 
 ## What is Validator?
 
-Binance Smart Chain relies on a set of validators who are responsible for committing new blocks in the blockchain. These validators participate in the consensus protocol by signing blocks that contain cryptographic signatures signed by each validator's private key.  The validator set is determined by a staking module built on Binance Chain for Binance Smart Chain, and propagated every day UTC 00:00 from BC to BSC via Cross-Chain communication.
+BNB Smart Chain relies on a set of validators who are responsible for committing new blocks in the blockchain. These validators participate in the consensus protocol by signing blocks that contain cryptographic signatures signed by each validator's private key.  The validator set is determined by a staking module built on BNB Beacon Chain for BNB Smart Chain, and propagated every day UTC 00:00 from BC to BSC via Cross-Chain communication.
 
 
 ## Economics

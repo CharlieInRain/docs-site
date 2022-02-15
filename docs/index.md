@@ -1,37 +1,37 @@
-# Binance Chain Documentation
+# BNB Beacon Chain Documentation
 
-Welcome to the Binance Chain documentation site!
+Welcome to the BNB Beacon Chain documentation site!
 
-Please note that both the Binance Chain software and this documentation site will improve over time and is still a work-in-progress.<br/>
+Please note that both the BNB Beacon Chain software and this documentation site will improve over time and is still a work-in-progress.<br/>
 Be sure to engage with our community channels to stay updated.
 
 Have fun trading and see you on chain!
 
-## What are Binance Chain and Binance DEX?
+## What are BNB Beacon Chain and Binance DEX?
 
-[Binance Chain](https://www.binance.org) is a blockchain software system developed by Binance and its community.
-Binance DEX refers to the decentralized exchange features developed on top of Binance Chain.
+[BNB Beacon Chain](https://www.bnbchain.world) is a blockchain software system developed by Binance and its community.
+Binance DEX refers to the decentralized exchange features developed on top of BNB Beacon Chain.
 
 Please read the [FAQ](./faq/faq.md) to get started.
 
-## What is Binance Smart Chain?
+## What is BNB Smart Chain?
 
-[Binance Smart Chain](https://www.binance.org/en/smartChain) is an innovative solution to bring programmability and interoperability to Binance Chain. Binance Smart Chain relies on a system of [21 validators with Proof of Staked Authority (PoSA)](https://github.com/binance-chain/whitepaper/blob/master/WHITEPAPER.md) consensus that can support short block time and lower fees. The most bonded validator candidates of staking will become validators and produce blocks. The double-sign detection and other slashing logic guarantee security, stability, and chain finality.
+[BNB Smart Chain](https://www.bnbchain.world/en/smartChain) is an innovative solution to bring programmability and interoperability to BNB Beacon Chain. BNB Smart Chain relies on a system of [21 validators with Proof of Staked Authority (PoSA)](https://github.com/binance-chain/whitepaper/blob/master/WHITEPAPER.md) consensus that can support short block time and lower fees. The most bonded validator candidates of staking will become validators and produce blocks. The double-sign detection and other slashing logic guarantee security, stability, and chain finality.
 
 Please read the [FAQ](./faq/bsc/general.md) to get started.
 
 
-## What can I do with Binance Chain?
+## What can I do with BNB Beacon Chain?
 
 The purpose of the new blockchain and DEX is to create an alternative marketplace for issuing and exchanging digital assets in a decentralized manner.
 
 You can:
 
 - [Send and receive BNB](transfer.md#web-wallet)
-- [Issue new tokens to digitalize assets](https://community.binance.org/topic/2487), and use Binance Chain as underlying exchange/transfer
+- [Issue new tokens to digitalize assets](https://community.binance.org/topic/2487), and use BNB Beacon Chain as underlying exchange/transfer
 network for the assets
 - Send, receive, [burn](tokens.md#burn)/[mint](tokens.md#mint) and [freeze/unfreeze](tokens.md#freeze-unfreeze) tokens
-- [Sumbit an on-chain governance proposal for Binance Smart Chain](./guides/concepts/bsc-gov.md)
+- [Sumbit an on-chain governance proposal for BNB Smart Chain](./guides/concepts/bsc-gov.md)
 
 
 **For traders**, you can:
@@ -42,21 +42,21 @@ network for the assets
 
 **For developers**, you can also:
 
-- Explore the transaction history and blocks on the chain, via [Binance Chain Explore](https://explorer.binance.org), [API](./api-reference/dex-api/paths.md)
+- Explore the transaction history and blocks on the chain, via [BNB Beacon Chain Explore](https://explorer.bnbchain.world), [API](./api-reference/dex-api/paths.md)
 and [node RPC](./api-reference/node-rpc.md) interfaces.
 - Run a [full node](fullnode.md) to listen to and broadcast live updates on transactions, blocks, and consensus activities
-- Extract other data of Binance Chain via full node or [APIs](./api-reference/dex-api/paths.md#apiv1markets)
-- [Develop tools](exchange-integration.md#sdks) and application to help users use Binance Chain and Binance DEX
+- Extract other data of BNB Beacon Chain via full node or [APIs](./api-reference/dex-api/paths.md#apiv1markets)
+- [Develop tools](exchange-integration.md#sdks) and application to help users use BNB Beacon Chain and Binance DEX
 
-## What can I do with Binance Smart Chain?
+## What can I do with BNB Smart Chain?
 
-Binance Smart Chain (BSC) is best described as a blockchain that runs in parallel to the Binance Chain. Unlike Binance Chain, BSC boasts smart contract functionality and compatibility with the Ethereum Virtual Machine (EVM). The design goal here was to leave the high throughput of Binance Chain intact while introducing smart contracts into its ecosystem.
+BNB Smart Chain (BSC) is best described as a blockchain that runs in parallel to the BNB Beacon Chain. Unlike BNB Beacon Chain, BSC boasts smart contract functionality and compatibility with the Ethereum Virtual Machine (EVM). The design goal here was to leave the high throughput of BNB Beacon Chain intact while introducing smart contracts into its ecosystem.
 
-Because BSC is EVM-compatible, it launched with support for the rich universe of [Ethereum](https://academy.binance.com/en/articles/what-is-ethereum) tools and DApps. In theory, this makes it easy for developers to port their projects over from Ethereum. For users, it means that applications like [MetaMask](smart-chain/wallet/metamask.md) can be easily configured to work with BSC. Seriously – it’s just a matter of tweaking a couple of settings. Check out [Use MetaMask for Binance Smart Chain](smart-chain/wallet/metamask.md) to get started.
+Because BSC is EVM-compatible, it launched with support for the rich universe of [Ethereum](https://academy.binance.com/en/articles/what-is-ethereum) tools and DApps. In theory, this makes it easy for developers to port their projects over from Ethereum. For users, it means that applications like [MetaMask](smart-chain/wallet/metamask.md) can be easily configured to work with BSC. Seriously – it’s just a matter of tweaking a couple of settings. Check out [Use MetaMask for BNB Smart Chain](smart-chain/wallet/metamask.md) to get started.
 
 You can:
 
-- Send and receive [BNB](https://docs.binance.org/smart-chain/wallet/binance.html#transfer-testnet-bnb-from-bsc-to-bc) and other [BEP2 tokens](https://docs.binance.org/smart-chain/wallet/binance.html#swap-testnet-bep2-token-to-its-bep20-equivalent) cross-chain
+- Send and receive [BNB](https://docs.bnbchain.world/smart-chain/wallet/binance.html#transfer-testnet-bnb-from-bsc-to-bc) and other [BEP2 tokens](https://docs.bnbchain.world/smart-chain/wallet/binance.html#swap-testnet-bep2-token-to-its-bep20-equivalent) cross-chain
 - Explore the transaction history and blocks on the chain, via [bscscan](https://bscscan.com), API
 and node RPC interfaces.
 - [Stake you BNB](./smart-chain/wallet/staking.md) to earn some block rewards
@@ -71,7 +71,7 @@ and node RPC interfaces.
 
 ## Comparision Between BC and BSC
 
-|                   | Binance Chain | Binance Smart Chain                    |
+|                   | BNB Beacon Chain | BNB Smart Chain                    |
 | ----------------- | ------------- | -------------------------------------- |
 | Consensus         | DPoS          | PoSA                                   |
 | No. of Validators | 11            | up to 21                               |
@@ -81,17 +81,17 @@ and node RPC interfaces.
 
 ## Get Started
 
-Want to try it **Binance Chain**? Just give a peek at the first few of pages of the [getting started guide](get-started.md).<br/>
+Want to try it **BNB Beacon Chain**? Just give a peek at the first few of pages of the [getting started guide](get-started.md).<br/>
 You could also have a read through the [FAQ](faq/faq.md).
 
-Want to develop on **Binance Smart Chain**? First, read through the [FAQ](faq/bsc/general.md) and learn about tokens [here](smart-chain/developer/BEP20.md).
+Want to develop on **BNB Smart Chain**? First, read through the [FAQ](faq/bsc/general.md) and learn about tokens [here](smart-chain/developer/BEP20.md).
 
 ## Asset Management
 
 ### BEP2 Asset
 
-Binance Chain is essentially a digital asset creation and exchange platform.<br/>
-The features listed below are currently supported on Binance Chain:
+BNB Beacon Chain is essentially a digital asset creation and exchange platform.<br/>
+The features listed below are currently supported on BNB Beacon Chain:
 
 - [The Listing and Delisting of Tokens](list.md)
 - [The Issuance, Burning, Minting and Freezing of Tokens](tokens.md)
@@ -107,9 +107,9 @@ A token protocol on BSC which is compatible with BEP2 and [ERC20](https://eips.e
 ## BNB (and Other Coins) MainNet Switch
 
 Binance Coin (BNB) was an ERC20 token on the Ethereum network.<br/>
-After the launch of Binance Chain, Binance Coin (BNB) is being converted into native BNB tokens on the main network via the exchange platform at [binance.com](https://www.binance.com), a pragmatic and efficient way to perform the initial token swap.
+After the launch of BNB Beacon Chain, Binance Coin (BNB) is being converted into native BNB tokens on the main network via the exchange platform at [binance.com](https://www.binance.com), a pragmatic and efficient way to perform the initial token swap.
 
-Binance Chain is ready for other projects to migrate their tokens to take advantage of performant transactions with more liquidity options and native marketplace features.<br/>
+BNB Beacon Chain is ready for other projects to migrate their tokens to take advantage of performant transactions with more liquidity options and native marketplace features.<br/>
 More information about how projects can set themselves up for this (via [binance.com](https://www.binance.com) or partners) will come soon.
 
 ## BNB Staking
@@ -118,7 +118,7 @@ Please read the guide [here](smart-chain/wallet/staking.md)
 
 ## Trading on Binance DEX
 
-Binance DEX is the native marketplace on Binance Chain, allowing you to exchange digital assets issued and listed on it.<br/>
+Binance DEX is the native marketplace on BNB Beacon Chain, allowing you to exchange digital assets issued and listed on it.<br/>
 The matching happens within the blockchain nodes and all of the transactions are recorded on-chain, therefore forming a complete, auditable ledger of activity.
 
 **ATTENTION**: The match logic on DEX is quite different from normal centralized exchange.<br/>
@@ -131,11 +131,11 @@ Please go over the trading and match spec below to get the best interests for yo
 ## Technology Details
 Continue reading below if you are interested in what is happening under the hood!
 
-- [Binance Chain as a Block Chain](blockchain.md): about consensus, software stack, network layout and roles.
-- [Connect to Binance Chain](chain-access.md): how to connect to Binance Chain and DEX via different ways.
-- [Run a Binance Chain full node](fullnode.md): how to run a full node and become part of the p2p network of Binance Chain.
-- [Run a Binance Chain light client](light-client.md): how to run a light client.
-- [Binance Chain Governance](governance.md): about proposal, vote, and join as a validator.
+- [BNB Beacon Chain as a Block Chain](blockchain.md): about consensus, software stack, network layout and roles.
+- [Connect to BNB Beacon Chain](chain-access.md): how to connect to BNB Beacon Chain and DEX via different ways.
+- [Run a BNB Beacon Chain full node](fullnode.md): how to run a full node and become part of the p2p network of BNB Beacon Chain.
+- [Run a BNB Beacon Chain light client](light-client.md): how to run a light client.
+- [BNB Beacon Chain Governance](governance.md): about proposal, vote, and join as a validator.
 
 ## Acknowledgement
 Thanks to the [community, our partners and supporters](acknowledgement.md).

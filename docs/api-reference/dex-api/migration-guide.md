@@ -1,8 +1,8 @@
 # Migration Guide
 
 ## Target Audience
-This guide will help users migrate their existing calls of [/api/v1/transactions-in-block](https://docs.binance.org/api-reference/dex-api/paths.html#apiv1transactions-in-blockblockheight), [/api/v2/transactions-in-block](https://docs.binance.org/api-reference/dex-api/paths.html#apiv2transactions-in-blockblockheight), [/api/v1/transactions](https://docs.binance.org/api-reference/dex-api/paths.html#apiv1transactions) to the new bock and transaction apis.
-If you are also using undisclosed apis from [Explorer](https://explorer.binance.org), you can also refer to this document for migration.
+This guide will help users migrate their existing calls of [/api/v1/transactions-in-block](https://docs.bnbchain.world/api-reference/dex-api/paths.html#apiv1transactions-in-blockblockheight), [/api/v2/transactions-in-block](https://docs.bnbchain.world/api-reference/dex-api/paths.html#apiv2transactions-in-blockblockheight), [/api/v1/transactions](https://docs.bnbchain.world/api-reference/dex-api/paths.html#apiv1transactions) to the new bock and transaction apis.
+If you are also using undisclosed apis from [Explorer](https://explorer.bnbchain.world), you can also refer to this document for migration.
 Otherwise, you can skip this document and refer to the api document.
 
 

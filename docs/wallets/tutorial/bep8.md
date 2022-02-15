@@ -1,13 +1,13 @@
-In this article, we are going to take a tour about how to manage your BEP8 tokens in Binance Testnet [web wallet](https://testnet.binance.org/en/tokens).
+In this article, we are going to take a tour about how to manage your BEP8 tokens in Binance Testnet [web wallet](https://testnet.bnbchain.world/en/tokens).
 
 ## What is BEP8 Token
-Since the [Nightingale upgrade](https://community.binance.org/topic/2828) of Binance Chain testnet, a new token protocol [BEP8](https://github.com/binance-chain/BEPs/blob/master/BEP8.md) is introduced. BEP8 protocol targets a different marketplace and provides several potential business cases in areas like micro-financing.
+Since the [Nightingale upgrade](https://community.binance.org/topic/2828) of BNB Beacon Chain testnet, a new token protocol [BEP8](https://github.com/binance-chain/BEPs/blob/master/BEP8.md) is introduced. BEP8 protocol targets a different marketplace and provides several potential business cases in areas like micro-financing.
 
 Currently, the cost to get a BEP2 token listed on Binance DEX is quite expensive, as it takes more system resources, which is more suitable for the mature and large scale projects with enough recognition in the markets.  At the same time, more micro-financing cases like copyright owners, peer production, and community incentive points are looking for flexible tokenization and trading platforms to support their current works and share their potential future success.  New BEP8 tokens market is introduced to meet these demands and will increase the liquidity of utility tokens, which is similar to Small and Medium Enterprise (SME) board in the traditional stock markets
 
 ## Issue BEP8 Token
 
-1. Go to issue [page](https://testnet.binance.org/en/tokens), click at “Issue Token” button
+1. Go to issue [page](https://testnet.bnbchain.world/en/tokens), click at “Issue Token” button
 
 ![img](https://lh6.googleusercontent.com/oncU08EeRRDZTvp83CurYlE1uh695kGpaNkapFgkTC5cfWJKHkptzmLkx2EKnhRgz9TZFTgyMBUz5GeZUYFskLGlimM7zMkcn-gexTErxryARD9bOjC-FUGytw8UEFo2FgIH3IPW)
 
@@ -24,7 +24,7 @@ Currently, the cost to get a BEP2 token listed on Binance DEX is quite expensive
 * **Maximum Supply**: BEP8 tokens can be categorized by its maximum supply, which could be either 10K or 1million. You have to pay for more for a larger maximum supply.
 * **Supply**: This amount of token will appear under the balance of token issuer
 * **Mintable**: Whether this token can be inflationary.
-* **Token URI**: you can paste URL of your project’s website or the URI points to a JSON file that conforms to the "Mini-BEP2 Metadata JSON Schema". https://docs.binance.org/guides/concepts/BEP8.html#set-token-uri
+* **Token URI**: you can paste URL of your project’s website or the URI points to a JSON file that conforms to the "Mini-BEP2 Metadata JSON Schema". https://docs.bnbchain.world/guides/concepts/BEP8.html#set-token-uri
 
 4. Confirm Token Info
 
@@ -34,7 +34,7 @@ You should wait for a little time before this token appears at your token list.
 
 ## List BEP8 Token
 
-The listing process is different from BEP2 token list. BEP8 token issuer can list the BEP8 token without the agreement of Binance Chain validators. The BEP8 token can only be listed against BNB or BUSD and they cannot be listed as a quote symbol.
+The listing process is different from BEP2 token list. BEP8 token issuer can list the BEP8 token without the agreement of BNB Beacon Chain validators. The BEP8 token can only be listed against BNB or BUSD and they cannot be listed as a quote symbol.
 
 1. Click on the list button
 
@@ -52,7 +52,7 @@ The listing process is different from BEP2 token list. BEP8 token issuer can lis
 
 ## Trade BEP8 Token
 
-1. Go to [BEP8 Token exchange](https://testnet.binance.org/en/trade/mini/ABC-524M_BNB)
+1. Go to [BEP8 Token exchange](https://testnet.bnbchain.world/en/trade/mini/ABC-524M_BNB)
 
 ![img](https://lh4.googleusercontent.com/ExmXaWy9NlsjZnOUFY3L_SnBADNLkiXn7hea95BTlECKmzoc8KT7DiEHT0VCj0NRiTF-5fki8zVA0_gNNqnCBZyaanD908RiV5DuRB_s4h9TU_gvhxozTaxbvy_rYLoY3K391lFZ)
 

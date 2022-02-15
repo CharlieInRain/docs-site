@@ -1,4 +1,4 @@
-# How to join Binance Smart Chain as Validator?
+# How to join BNB Smart Chain as Validator?
 
 ## Before You Start
 
@@ -50,7 +50,7 @@ geth --config ./config.toml --datadir ./node --syncmode snap -unlock {your-valid
 
 #### Get Testnet Token from Faucet
 
-You can get testnet BNB from <https://testnet.binance.org/faucet-smart>, but the BNB is on Binance Smart Chain.
+You can get testnet BNB from <https://testnet.bnbchain.world/faucet-smart>, but the BNB is on BNB Smart Chain.
 
 Download `tbnbcli `from [GitHub](https://github.com/binance-chain/node-binary/tree/master/cli/testnet/0.8.1). Use `tbnbcli` to create an account or recover an account.
 
@@ -83,9 +83,9 @@ tbnbcli staking bsc-create-validator \
 --node=http://data-seed-pre-1-s3.binance.org:80
 ```
 
-Go to [explorer](https://explorer.binance.org/) to verify your transactions.
+Go to [explorer](https://explorer.bnbchain.world/) to verify your transactions.
 
-Check your validator's status at this [page](https://testnet-staking.binance.org/en/staking)
+Check your validator's status at this [page](https://testnet-staking.bnbchain.world/en/staking)
 
 
 ## Setup a Mainnet Validator
@@ -208,7 +208,7 @@ Make sure that the `side-cons-addr` is the address you unlock when start the val
 
 Read the detailed manual [here](../../guides/concepts/bc-staking.md) to understand other parameters.
 
-Go to [explorer](https://explorer.binance.org/) to verify your transactions.
+Go to [explorer](https://explorer.bnbchain.world/) to verify your transactions.
 
 ## After Declare Your Candidacy
 

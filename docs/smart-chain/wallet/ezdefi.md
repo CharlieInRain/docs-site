@@ -1,4 +1,4 @@
-# How to use ezDeFi for Binance Smart Chain
+# How to use ezDeFi for BNB Smart Chain
 
 ## Install ezDeFi
 ### Go to [http://ezdefi.com](http://ezdefi.com/) to install the most recent version of ezDeFi. 
@@ -16,8 +16,8 @@ Download *ezDeFi Mobile App* wallet on [Apple Appstore](https://apps.apple.com/v
 ### Get ready by completing the initial setup.
 
 
-## Getting the Binance Smart Chain 
-### On mobile app, go to "Setting" => "Advanced Setting" => "Custom RPC Network" to see default Binance Smart Chain . On browser extension, go to "Setting" => "Network" to see default Binance Smart Chain 
+## Getting the BNB Smart Chain 
+### On mobile app, go to "Setting" => "Advanced Setting" => "Custom RPC Network" to see default BNB Smart Chain . On browser extension, go to "Setting" => "Network" to see default BNB Smart Chain 
 <img src="https://drive.google.com/uc?export=view&id=1fNurU1PKnCqD_6HiJI8UQArARdkCzhHI" height="500" style = "margin: 15px">
 <img src="https://drive.google.com/uc?export=view&id=1ToqGEDAtH9y1eg8nRNhb12qQo9RT_GxP" height="500" style = "margin: 15px">
 
@@ -53,8 +53,8 @@ Download *ezDeFi Mobile App* wallet on [Apple Appstore](https://apps.apple.com/v
 <img src="https://drive.google.com/uc?export=view&id=1ie9FXo1GUgo2Uk0o3CZjZaiEt5upG6Eh" height="500" style = "margin: 15px">
 
 
-## Access Binance Smart Chain DApps
-### ezDeFi Wallet is fully compatible with Binance Smart Chain DApps.
+## Access BNB Smart Chain DApps
+### ezDeFi Wallet is fully compatible with BNB Smart Chain DApps.
 ### On mobile app
 <img src="https://drive.google.com/uc?export=view&id=19aJDDMGlRyMerrv9yCYMCZuAXusYyPaw" height="500" style = "margin: 15px">
 <img src="https://drive.google.com/uc?export=view&id=1eBIFyIX2jBwqbw5Q3bopknabimXtrXnW" height="500" style = "margin: 15px"> 

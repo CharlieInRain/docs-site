@@ -1,10 +1,10 @@
 # Upgrade
 
-Please follow [Binance Chain Telegram Announcement Channel](https://t.me/Binance_DEX_Announcement) or forum to get the latest news about upcoming upgrades.
+Please follow [BNB Beacon Chain Telegram Announcement Channel](https://t.me/Binance_DEX_Announcement) or forum to get the latest news about upcoming upgrades.
 
 ## Upgrading Full Node
 
-Many of Binance Chain upgrades are hardfork ones. If so, you have to finish the upgrade steps before the hardfork block height.
+Many of BNB Beacon Chain upgrades are hardfork ones. If so, you have to finish the upgrade steps before the hardfork block height.
 
 1. If your node is already synced with the network, please download the new  binary and replace the previous version
 2. Replace the config.toml and app.toml under home folder with the latest versions. You can customize those parameters.
@@ -15,7 +15,7 @@ bnbchaind start --home <home-path>
 
 ## Forget to Upgrade
 
-The Binance Chain has a hardfork upgrade and if you failed to upgrade your fullnode to the latest version, `bnbchaind` process will stop and even if you restart with the latest version, the following error will appear:
+The BNB Beacon Chain has a hardfork upgrade and if you failed to upgrade your fullnode to the latest version, `bnbchaind` process will stop and even if you restart with the latest version, the following error will appear:
 ```
 panic: Tendermint state.AppHash does not match AppHash after replay. Got , expected 393887B67F69B19CAB5C48FB87B4966018ABA893FB3FFD241C0A94D2C8668DD2
 goroutine 1 [running]:

@@ -1,14 +1,14 @@
 # Staking
 
-## PoSA Consensus of Binance Smart Chain
+## PoSA Consensus of BNB Smart Chain
 
-[Binance Smart Chain](https://community.binance.org/topic/2686) is an innovative solution to bring programmability and interoperability to [Binance Chain](https://www.binance.org). Binance Smart Chain relies on a system of 21 validators with Proof of [Staked Authority (PoSA) consensus](../../smart-chain/guides/concepts/consensus.md) that can support short block time and lower fees. The most bonded validator candidates of staking will become validators and produce blocks. The double-sign detection and other slashing logic guarantee security, stability, and chain finality.
+[BNB Smart Chain](https://community.binance.org/topic/2686) is an innovative solution to bring programmability and interoperability to [BNB Beacon Chain](https://www.bnbchain.world). BNB Smart Chain relies on a system of 21 validators with Proof of [Staked Authority (PoSA) consensus](../../smart-chain/guides/concepts/consensus.md) that can support short block time and lower fees. The most bonded validator candidates of staking will become validators and produce blocks. The double-sign detection and other slashing logic guarantee security, stability, and chain finality.
 
-## Staking on Binance Chain
+## Staking on BNB Beacon Chain
 
-Ideally, Binance Smart Chain should build such staking and reward logic into the blockchain, and automatically distribute rewards as the blocking happens. [Cosmos Hub](https://hub.cosmos.network/), who also build on top of Tendermint consensus like Binance Chain, works in this way.
+Ideally, BNB Smart Chain should build such staking and reward logic into the blockchain, and automatically distribute rewards as the blocking happens. [Cosmos Hub](https://hub.cosmos.network/), who also build on top of Tendermint consensus like BNB Beacon Chain, works in this way.
 
-However, as BSC wants to remain compatible with Ethereum as much as possible. On the other side, Binance Chain already has a staking module and could be extended to support both BC and BSC. In this way, all the staking related operations are recorded in BC. Once there are any changes about BSC's validator set or voting power, the new message will be transferred to BSC through cross-chain communication.
+However, as BSC wants to remain compatible with Ethereum as much as possible. On the other side, BNB Beacon Chain already has a staking module and could be extended to support both BC and BSC. In this way, all the staking related operations are recorded in BC. Once there are any changes about BSC's validator set or voting power, the new message will be transferred to BSC through cross-chain communication.
 
 ## Staking Economics
 
@@ -49,7 +49,7 @@ Jailed: false
 Status: Bonded
 Tokens: 5000000000000
 Delegator Shares: 5000000000000
-Description: {Elbrus "" www.binance.org This is Elbrus org on chapel network.}
+Description: {Elbrus "" www.bnbchain.world This is Elbrus org on chapel network.}
 Bond Height: 74158
 Unbonding Height: 0
 Minimum Unbonding Time: 1970-01-01 00:00:00 +0000 UTC
@@ -117,7 +117,7 @@ Some address parameters we need to highlight here:
 | DelegatorAddr | Self  delegator address. For BC, this address also used to collect fees. |
 | ValidatorAddr | validator  operator’s address, used in governance ops like voting. |
 | SideConsAddr  | block  producer’s address on side chain, i.e. consensus address. BC has another  parameter named `PubKey`, here SideConsAddr replaced that for BSC.  Only  BSC validators need this parameter. |
-| SideFeeAddr   | fees  are collected in this address on BSC,   Only  BSC validators need this parameter. Due to different token units, there are some BNB left as dust when sending block rewards from Binance Smart Chain to Binance Chain. Those BNB will be sent to fee address.|
+| SideFeeAddr   | fees  are collected in this address on BSC,   Only  BSC validators need this parameter. Due to different token units, there are some BNB left as dust when sending block rewards from BNB Smart Chain to BNB Beacon Chain. Those BNB will be sent to fee address.|
 
 
 
@@ -129,20 +129,20 @@ Some address parameters we need to highlight here:
 
 ```bash
 ## mainnet
-bnbcli staking bsc-create-validator --chain-id Binance-Chain-Tigris --from bnb1tfh30c67mkzfz06as2hk0756mgdx8mgypu7ajl --amount 1000000000000:BNB --moniker bsc_v1 --identity "xxx" --website "[www.example.](http://www.binance.org)com" --details "bsc validator node 1" --commission-rate 80000000 --commission-max-rate 95000000 --commission-max-change-rate 3000000 --side-chain-id bsc --side-cons-addr 0x9B24Ee0BfBf708b541fB65b6087D6e991a0D11A8 --side-fee-addr 0x5885d2A27Bd4c6D111B83Bc3fC359eD951E8E6F8 --home ~/home_cli
+bnbcli staking bsc-create-validator --chain-id Binance-Chain-Tigris --from bnb1tfh30c67mkzfz06as2hk0756mgdx8mgypu7ajl --amount 1000000000000:BNB --moniker bsc_v1 --identity "xxx" --website "[www.example.](http://www.bnbchain.world)com" --details "bsc validator node 1" --commission-rate 80000000 --commission-max-rate 95000000 --commission-max-change-rate 3000000 --side-chain-id bsc --side-cons-addr 0x9B24Ee0BfBf708b541fB65b6087D6e991a0D11A8 --side-fee-addr 0x5885d2A27Bd4c6D111B83Bc3fC359eD951E8E6F8 --home ~/home_cli
 
 ## testnet
-tbnbcli staking bsc-create-validator --chain-id Binance-Chain-Ganges --from bnb1tfh30c67mkzfz06as2hk0756mgdx8mgypu7ajl --amount 2000000000000:BNB --moniker bsc_v1 --identity "xxx" --website "[www.example.](http://www.binance.org)com" --details "bsc validator node 1" --commission-rate 80000000 --commission-max-rate 95000000 --commission-max-change-rate 3000000 --side-chain-id chapel --side-cons-addr 0x9B24Ee0BfBf708b541fB65b6087D6e991a0D11A8 --side-fee-addr 0x5885d2A27Bd4c6D111B83Bc3fC359eD951E8E6F8 --home ~/home_cli
+tbnbcli staking bsc-create-validator --chain-id Binance-Chain-Ganges --from bnb1tfh30c67mkzfz06as2hk0756mgdx8mgypu7ajl --amount 2000000000000:BNB --moniker bsc_v1 --identity "xxx" --website "[www.example.](http://www.bnbchain.world)com" --details "bsc validator node 1" --commission-rate 80000000 --commission-max-rate 95000000 --commission-max-change-rate 3000000 --side-chain-id chapel --side-cons-addr 0x9B24Ee0BfBf708b541fB65b6087D6e991a0D11A8 --side-fee-addr 0x5885d2A27Bd4c6D111B83Bc3fC359eD951E8E6F8 --home ~/home_cli
 ```
 
 * Testnet
 
 ```bash
 ## mainnet
-bnbcli staking bsc-create-validator --chain-id Binance-Chain-Tigris --from tbnb1tfh30c67mkzfz06as2hk0756mgdx8mgypu7ajl --amount 2000000000000:BNB --moniker bsc_v1 --identity "xxx" --website "[www.example.](http://www.binance.org)com" --details "bsc validator node 1" --commission-rate 80000000 --commission-max-rate 95000000 --commission-max-change-rate 3000000 --side-chain-id bsc --side-cons-addr 0x9B24Ee0BfBf708b541fB65b6087D6e991a0D11A8 --side-fee-addr 0x5885d2A27Bd4c6D111B83Bc3fC359eD951E8E6F8 --home ~/home_cli
+bnbcli staking bsc-create-validator --chain-id Binance-Chain-Tigris --from tbnb1tfh30c67mkzfz06as2hk0756mgdx8mgypu7ajl --amount 2000000000000:BNB --moniker bsc_v1 --identity "xxx" --website "[www.example.](http://www.bnbchain.world)com" --details "bsc validator node 1" --commission-rate 80000000 --commission-max-rate 95000000 --commission-max-change-rate 3000000 --side-chain-id bsc --side-cons-addr 0x9B24Ee0BfBf708b541fB65b6087D6e991a0D11A8 --side-fee-addr 0x5885d2A27Bd4c6D111B83Bc3fC359eD951E8E6F8 --home ~/home_cli
 
 ## testnet
-tbnbcli staking bsc-create-validator --chain-id Binance-Chain-Ganges --from tbnb1tfh30c67mkzfz06as2hk0756mgdx8mgypu7ajl --amount 2000000000000:BNB --moniker bsc_v1 --identity "xxx" --website "[www.example.](http://www.binance.org)com" --details "bsc validator node 1" --commission-rate 80000000 --commission-max-rate 95000000 --commission-max-change-rate 3000000 --side-chain-id chapel --side-cons-addr 0x9B24Ee0BfBf708b541fB65b6087D6e991a0D11A8 --side-fee-addr 0x5885d2A27Bd4c6D111B83Bc3fC359eD951E8E6F8 --home ~/home_cli
+tbnbcli staking bsc-create-validator --chain-id Binance-Chain-Ganges --from tbnb1tfh30c67mkzfz06as2hk0756mgdx8mgypu7ajl --amount 2000000000000:BNB --moniker bsc_v1 --identity "xxx" --website "[www.example.](http://www.bnbchain.world)com" --details "bsc validator node 1" --commission-rate 80000000 --commission-max-rate 95000000 --commission-max-change-rate 3000000 --side-chain-id chapel --side-cons-addr 0x9B24Ee0BfBf708b541fB65b6087D6e991a0D11A8 --side-fee-addr 0x5885d2A27Bd4c6D111B83Bc3fC359eD951E8E6F8 --home ~/home_cli
 ```
 
 2. If you want a separated self-delegator address, both `self-delegator` and `validator operator` need to sign this transaction. Here we need to use another two commands to support multiple signatures.
@@ -213,7 +213,7 @@ c. use “**bnbcli broadcast**” to send the transaction from above to the bloc
 ./tbnbcli broadcast both-signed.json  --node data-seed-pre-0-s3.binance.org:80 --chain-id Binance-Chain-Ganges
 ```
 
-Verify your transaction in [mainnet-explorer](https://explorer.binance.org/) or [testnet-explorer](https://testnet-explorer.binance.org/)
+Verify your transaction in [mainnet-explorer](https://explorer.bnbchain.world/) or [testnet-explorer](https://testnet-explorer.bnbchain.world/)
 
 ### Edit BSC Validator
 
@@ -386,7 +386,7 @@ bnbcli staking side-unbonding-delegation [delegator-addr] [operator-addr] [flags
 
 | **parameter  name** | **example**       | **comments**                                        | **required** |
 | ------------------- | ----------------- | --------------------------------------------------- | ------------ |
-| --chan-id           | Binance-Chain-XXX | the chain id of binance chain                       | Yes          |
+| --chan-id           | Binance-Chain-XXX | the chain id of BNB Beacon Chain                       | Yes          |
 | --side-chain-id     | bsc/chapel            | chain-id of the side chain the validator belongs to | Yes          |
 
 **For example**
@@ -407,7 +407,7 @@ bnbcli staking side-unbonding-delegations [delegator-addr] [flags]
 
 | **parameter  name** | **example**       | **comments**                                        | **required** |
 | ------------------- | ----------------- | --------------------------------------------------- | ------------ |
-| --chan-id           | Binance-Chain-XXX | the chain id of binance chain                       | Yes          |
+| --chan-id           | Binance-Chain-XXX | the chain id of BNB Beacon Chain                       | Yes          |
 | --side-chain-id     | chapel            | chain-id of the side chain the validator belongs to | Yes          |
 
 **For example**
@@ -428,7 +428,7 @@ bnbcli staking side-val-unbonding-delegation [operator-addr] [flags]
 
 | **parameter  name** | **example**       | **comments**                                        | **required** |
 | ------------------- | ----------------- | --------------------------------------------------- | ------------ |
-| --chan-id           | Binance-Chain-XXX | the chain id of binance chain                       | Yes          |
+| --chan-id           | Binance-Chain-XXX | the chain id of BNB Beacon Chain                       | Yes          |
 | --side-chain-id     | bsc/chapel            | chain-id of the side chain the validator belongs to | Yes          |
 
 **For example**
@@ -448,7 +448,7 @@ bnbcli staking side-redelegation [delegator-addr] [src-operator-addr] [dst-opera
 
 | **parameter  name** | **example**       | **comments**                                        | **required** |
 | ------------------- | ----------------- | --------------------------------------------------- | ------------ |
-| --chan-id           | Binance-Chain-XXX | the chain id of binance chain                       | Yes          |
+| --chan-id           | Binance-Chain-XXX | the chain id of BNB Beacon Chain                       | Yes          |
 | --side-chain-id     | bsc/chapel            | chain-id of the side chain the validator belongs to | Yes          |
 
 **For example**
@@ -469,7 +469,7 @@ bnbcli staking side-redelegations [delegator-addr] [flags]
 
 | **parameter  name** | **example**       | **comments**                                        | **required** |
 | ------------------- | ----------------- | --------------------------------------------------- | ------------ |
-| --chan-id           | Binance-Chain-XXX | the chain id of binance chain                       | Yes          |
+| --chan-id           | Binance-Chain-XXX | the chain id of BNB Beacon Chain                       | Yes          |
 | --side-chain-id     | bsc/chapel            | chain-id of the side chain the validator belongs to | Yes          |
 
 **For example**
@@ -488,7 +488,7 @@ bnbcli staking side-val-redelegations [operator-addr] [flags]
 ```
 | **parameter  name** | **example**       | **comments**                                        | **required** |
 | ------------------- | ----------------- | --------------------------------------------------- | ------------ |
-| --chan-id           | Binance-Chain-XXX | the chain id of binance chain                       | Yes          |
+| --chan-id           | Binance-Chain-XXX | the chain id of BNB Beacon Chain                       | Yes          |
 | --side-chain-id     | bsc/chapel            | chain-id of the side chain the validator belongs to | Yes          |
 
 **For example**
@@ -504,7 +504,7 @@ bnbcli staking side-val-redelegations bva12hlquylu78cjylk5zshxpdj6hf3t0tahqmr98n
 
 | **parameter  name** | **example**       | **comments**                                        | **required** |
 | ------------------- | ----------------- | --------------------------------------------------- | ------------ |
-| --chan-id           | Binance-Chain-XXX | the chain id of binance chain                       | Yes          |
+| --chan-id           | Binance-Chain-XXX | the chain id of BNB Beacon Chain                       | Yes          |
 | --side-chain-id     | bsc/chapel            | chain-id of the side chain the validator belongs to | Yes          |
 
 
@@ -521,7 +521,7 @@ bnbcli staking     side-pool --side-chain-id=bsc --chain-id=Binance-Chain-Tigris
 
 | **parameter  name** | **example**       | **comments**                                                 | **required** |
 | ------------------- | ----------------- | ------------------------------------------------------------ | ------------ |
-| --chan-id           | Binance-Chain-XXX | the chain id of binance chain                                | Yes          |
+| --chan-id           | Binance-Chain-XXX | the chain id of BNB Beacon Chain                                | Yes          |
 | --side-chain-id     | chapel            | chain-id of the side chain the validator belongs to          | Yes          |
 | --top               | 10                | number of validators to be returned. set as maximum number of  validators  by default | Option       |
 
@@ -537,7 +537,7 @@ bnbcli staking side-top-validators --top 10 --side-chain-id=bsc --chain-id=Binan
 
 | **parameter  name** | **example**       | **comments**                                                 | **required** |
 | ------------------- | ----------------- | ------------------------------------------------------------ | ------------ |
-| --chan-id           | Binance-Chain-XXX | the chain id of binance chain                                | Yes          |
+| --chan-id           | Binance-Chain-XXX | the chain id of BNB Beacon Chain                                | Yes          |
 | --side-chain-id     | chapel            | chain-id of the side chain the validator belongs to          | Yes          |
 | --jail-involved     | true              | if true, meaning that the jailed validators will be involved to count | Option       |
 

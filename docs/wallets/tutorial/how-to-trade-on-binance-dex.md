@@ -1,6 +1,6 @@
 # How to Trade on Binance DEX
 
-1) Go to [www.binance.org](http://www.binance.org/)
+1) Go to [www.bnbchain.world](http://www.bnbchain.world/)
 
 Click on "Start Trading"
 
@@ -18,7 +18,7 @@ If you use Ledger, please select the address you want to use for this session.
 
 ![img](assets/how-to-trade-on-binance-dex/4.png)
 
-After unlocking your wallet, make sure that your balance is correct by clicking the "Balance" button on the navigation bar. Then, you will go to: <https://www.binance.org/en/balances>
+After unlocking your wallet, make sure that your balance is correct by clicking the "Balance" button on the navigation bar. Then, you will go to: <https://www.bnbchain.world/en/balances>
 
 ![img](assets/how-to-trade-on-binance-dex/5.png)
 
@@ -27,7 +27,7 @@ After unlocking your wallet, make sure that your balance is correct by clicking 
 3) Go to trading page
 
 You can see that there are multiple trading pairs.<br/>
-In this example, we use $ONE <https://www.binance.org/en/trade/ONE-5F9_BNB>
+In this example, we use $ONE <https://www.bnbchain.world/en/trade/ONE-5F9_BNB>
 
 ![img](assets/how-to-trade-on-binance-dex/7.png)
 

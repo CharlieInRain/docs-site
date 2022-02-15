@@ -1,15 +1,15 @@
 ## Introduction
 ![img](https://lh3.googleusercontent.com/ncyDydx75XwAaf8UqrROaVroneHbAS37n6tMP8xBja_W8qqlSK-jkrgngJ58DhzRoQKNvOdVoB9oyZGAWJGrmjUJxi3b9GaF8zhUny5J5B0P17InvH2gT1ozJ_HinrhAPc92SVLL)
 
-Introducing [Binance Bridge V2](https://www.binance.org/en/bridge), a brand new bridge service providing access to inter-blockchain liquidity for all popular blockchain networks, brings valuable assets such as BUSD, USDT, and ETH to Binance Chain ecosystems. 
+Introducing [Binance Bridge V2](https://www.bnbchain.world/en/bridge), a brand new bridge service providing access to inter-blockchain liquidity for all popular blockchain networks, brings valuable assets such as BUSD, USDT, and ETH to BNB Beacon Chain ecosystems. 
 
-In the [first version](https://docs.binance.org/smart-chain/guides/panama.html), the procedure of swapping tokens has two categories: *Peg-In* and *Peg-Out*. Peg-In allows users to exchange the native tokens to the equivalent of pegged tokens on Binance Chain or Binance Smart Chain. Meanwhile, the Peg-Out procedure enables users to swap the equivalent of pegged tokens on Binance Chain or Binance Smart Chain to the native tokens. 
+In the [first version](https://docs.bnbchain.world/smart-chain/guides/panama.html), the procedure of swapping tokens has two categories: *Peg-In* and *Peg-Out*. Peg-In allows users to exchange the native tokens to the equivalent of pegged tokens on BNB Beacon Chain or BNB Smart Chain. Meanwhile, the Peg-Out procedure enables users to swap the equivalent of pegged tokens on BNB Beacon Chain or BNB Smart Chain to the native tokens. 
 
 Many more networks are coming soon ~
 
 
 ## User Guide
-### Swap Tokens to Binance Chain from a different Network
+### Swap Tokens to BNB Beacon Chain from a different Network
 - Install your extension wallet; it can be Binance Extension Wallet or MetaMask
 - Go to Binance Bridge page, and you will use V2 by default.
 
@@ -33,7 +33,7 @@ Binance Bridge supports 35 popular cryptocurrencies. You can move your USDT, BUS
 
 ![img](https://lh3.googleusercontent.com/KQ4fWbg3WYMAgeQPlFWXUJooZEdn-YUzmOJEURGONbOKQWey88dJf183UhRD2yzBFsZNOT1GCj3FFNbR20PuImBiNV6GOKWFjKkKT0eHoY1U38NDjehPT7eOzUSx-7EZt-jPeVvc)
 
-To swap Tokens to Binance Chain from a different network, the destination network must be Binance Chain or Binance Smart Chain. You can click on the arrow button to switch between these two networks. 
+To swap Tokens to BNB Beacon Chain from a different network, the destination network must be BNB Beacon Chain or BNB Smart Chain. You can click on the arrow button to switch between these two networks. 
 
 - Enter Swap Amount then confirm
 
@@ -54,7 +54,7 @@ Transaction Result
 You can also verify the swap process from the “History” board. 
 <img src="https://lh4.googleusercontent.com/74FfAjGt-NItSTjwNkBXFLTpLkkOGf7LGZ_ZyIpYusreWvvHilqFlgiL8Npl_gDAZfXOCcb60KfK_E3eZa4kE9V_AbiRTHN-L7MUmpEdhyg8K4jdrdJmyP-qn-iQ-8OliCXm_g-2" alt="img" style="zoom: 50%;" />
 
-### Swap Tokens from Binance Chain to a different Network
+### Swap Tokens from BNB Beacon Chain to a different Network
 
 - Install your extension wallet; it can be Binance Extension Wallet or MetaMask
 - Go to Binance Bridge page, and you will use V2 by default.
@@ -79,7 +79,7 @@ Binance Bridge supports 35 popular cryptocurrencies. You can move your USDT, BUS
 
 ![img](https://lh3.googleusercontent.com/KQ4fWbg3WYMAgeQPlFWXUJooZEdn-YUzmOJEURGONbOKQWey88dJf183UhRD2yzBFsZNOT1GCj3FFNbR20PuImBiNV6GOKWFjKkKT0eHoY1U38NDjehPT7eOzUSx-7EZt-jPeVvc)
 
-To swap Tokens from Binance Chain to a different Network, the source network must be Binance Chain, Binance Smart Chain or Ethereum (with metamask)
+To swap Tokens from BNB Beacon Chain to a different Network, the source network must be BNB Beacon Chain, BNB Smart Chain or Ethereum (with metamask)
 
 - Enter Swap Amount then confirm
 
@@ -101,7 +101,7 @@ You can also verify the swap process from the “History” board.
 
 ## Conclusion
 
-Binance Bridge is the safest, fastest, and most secure way to bring cross-chain assets to Binance Chain and Binance Smart Chain. If you have any issues, please contact customer support of [Binance.com](https://www.binance.com/en/support).
+Binance Bridge is the safest, fastest, and most secure way to bring cross-chain assets to BNB Beacon Chain and BNB Smart Chain. If you have any issues, please contact customer support of [Binance.com](https://www.binance.com/en/support).
 
 ### FAQ
 
@@ -111,7 +111,7 @@ You can monitor your daily limit at the top of bridge page.
 
 ![img](https://lh6.googleusercontent.com/pOOuf2k00u7XVs62m0liG_MrHCtL15Fo1-S_KyEofFII8QN7bs1UYCVEiMcFWV294k2hV06hyd6cm6OXbej8aqov8_sF8F5IA5ig7E_R1Pl-OO_MnG44yuXgstUEQfd7c2C2KXtV)
 
-2. What is pegged Bitcoin on Binance Chain and Binance Smart Chain?
+2. What is pegged Bitcoin on BNB Beacon Chain and BNB Smart Chain?
 
-Binance.com announced  [Project Token Canal](https://www.binance.org/en/blog/binance-presents-project-token-canal-2/), which is a new initiative, similar to many existing ‘wrapped coins’ in the crypto community. As the largest crypto token vault and exchange, Binance.com will issue and bind more token assets on Binance Chain and Binance Smart Chain, and guarantee the conversion from and to the original tokens with credibility and infrastructure. [Announcement](https://www.binance.com/en/support/articles/daca7c991d5f4c45a4d1083f70912515) [Project Token Canal](https://www.binance.org/en/blog/binance-presents-project-token-canal-2/) is a great option for users of Binance.com, while Binance Bridge is the powerful alternative for non-Binance.com users and more. These two channels will work together to provide more liquidity to Binance Chain ecosystem. [View Proof of Assets](https://www.binance.org/en/assets-proof) 
+Binance.com announced  [Project Token Canal](https://www.bnbchain.world/en/blog/binance-presents-project-token-canal-2/), which is a new initiative, similar to many existing ‘wrapped coins’ in the crypto community. As the largest crypto token vault and exchange, Binance.com will issue and bind more token assets on BNB Beacon Chain and BNB Smart Chain, and guarantee the conversion from and to the original tokens with credibility and infrastructure. [Announcement](https://www.binance.com/en/support/articles/daca7c991d5f4c45a4d1083f70912515) [Project Token Canal](https://www.bnbchain.world/en/blog/binance-presents-project-token-canal-2/) is a great option for users of Binance.com, while Binance Bridge is the powerful alternative for non-Binance.com users and more. These two channels will work together to provide more liquidity to BNB Beacon Chain ecosystem. [View Proof of Assets](https://www.bnbchain.world/en/assets-proof) 
 

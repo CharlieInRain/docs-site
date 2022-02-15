@@ -1,4 +1,4 @@
-# Use MetaMask For Binance Smart Chain
+# Use MetaMask For BNB Smart Chain
 
 
 !!! Tip
@@ -28,7 +28,7 @@ That’s it! You have successfully installed MetaMask extension in Brave!
 !!! Tip
     The workflow is the same for all browsers
 
-## Create an account in MetaMask for Binance Smart Chain
+## Create an account in MetaMask for BNB Smart Chain
 
 1. Click on the “Create a wallet” button
 
@@ -46,7 +46,7 @@ That’s it! You have successfully installed MetaMask extension in Brave!
 
 Congratulations! you have create your MetaMask account!
 
-## Connect Your MetaMask With Binance Smart Chain
+## Connect Your MetaMask With BNB Smart Chain
 
 1. Go to setting page</br>
 
@@ -70,14 +70,14 @@ Congratulations! you have create your MetaMask account!
 Click on your address for copy
 <img src="https://lh3.googleusercontent.com/3-6iXj8gVhTYrhzkDHcRBWOMvkkfUwm2W8aDssNTZ5bFqCsjq1BlY-nhCJDZWwT8kx-9URnQur1JxmAot-3Nu1lhypqVM068MovqDlv-oXPDJtz4PwsNTYGM3TZM_F5uRlnUwrP3" alt="img" style="zoom:33%;" />
 
-4. Go to faucet page: https://testnet.binance.org/faucet-smart, then paste your address in the box and click on “Give me BNB”
+4. Go to faucet page: https://testnet.bnbchain.world/faucet-smart, then paste your address in the box and click on “Give me BNB”
 
 !!! Tip
     Please note that you can only claim once every minute
 ![img](https://lh6.googleusercontent.com/DqxU17JcP9iW5f1yUujY5S8w2m32yv00jrQgJJ0vp_OptrNwCWotbb1_X7msseR72OpXSj8fxbLXhWZgpVEtaMJ_STof2D2mZcGsl6Qh4-KWJH8LsYu97SXySMToDnx15qS4po5z)</br>
 After the transfer transaction is sent, you will see an increase of your balance<img src="https://lh6.googleusercontent.com/Azy6npo0J6hrV_H_X2-IfVcYHE7U6vaMEh2_GPnVb_5oKZSy9Qqa43QYlzEZlmgcJHnMYbyAvyFNJ16Opcn4xbNRO_6Z11Gnl0eePqOkwOfgOptGT0H9gWG2uepkRaHlYsOZ1w4b" alt="img" style="zoom:33%;" />
 
-## Transfer BNB to other Binance Smart Chain address
+## Transfer BNB to other BNB Smart Chain address
 
 1. Log in to your MetaMask</br>
 <img src="https://lh3.googleusercontent.com/7HKZWIzMtfolKrO42OI6Zw3XCUj4CjKo15mXT8n_B3J6CC4Po3nDK59ORv2qvgL_G84I_JOYrnp3oNXcfSO3u0IsXBo4vvB3CpaberJ86ORb9_02campWQOyBr-Y07yYPI68qR85" alt="img" style="zoom: 33%;" />
@@ -110,7 +110,7 @@ Verify your transaction in Explorer:
 You can create a new file or import a sample contract: <https://gist.github.com/HaoyangLiu/3c4dc081b7b5250877e40b82667c8508></br>
 <img src="https://lh4.googleusercontent.com/Kzs4VR0Xq8JPnRUKasYl01i0bllJNPcTLjhDpzKAHrzsHUm3789-sXs3m0UQZxjk8E4MOugCdga2_7JemvdGcxl_yqhK1Jc4vRan6ZxCo8CUv2BxmIrBPsTcBMEsNrHqfNpkxyU2" alt="img" style="zoom:33%;" /></br><img src="https://lh5.googleusercontent.com/Jgip5Dl46QEEiDo1Gpy9Oc4tuPhqyV9QTwI_72PmJOTG8Fd2K_6BG5K8X-U_OvE2u6fjfXUKvVuxL-hITWweD2aX5GUP4nggR4qwTILRdXyM1tZDSxcYf1DDc0PmQYJK5D24WSVC" alt="img" style="zoom:50%;" />
 
-2. Connect your Binance Smart Chain Account to Remix</br>
+2. Connect your BNB Smart Chain Account to Remix</br>
 <img src="https://lh4.googleusercontent.com/ZxPg5aaTnSArl6j0z5twRbJTRuN7S7IlkFFWL1gkai1EoHDYXTdHJvqL2iREmEIq5c4ERY2BN3Sf180fE77ti8-6BoWGrCV7G68SV9a2HTVYmM7rONn7ARZHVMwnzSXGQmliIT32" alt="img" style="zoom:33%;" />
 3. Select “ABCToken” contract and compile
 ![img](https://lh3.googleusercontent.com/AVz8Ud1YCb9tA7iuFvzP_JwACrbzugcSpOj_ZZZmew8Gy3u6vwC4biOSEExLhz6Euvgh1Ow8L4LIbpMYw9upNTWHnYJnmRlsNKZF_sVpYwMt11SWv5spZ2d3n7PiAZOts6exDg9W)
@@ -149,7 +149,7 @@ Since the release of v8.1.3, MetaMask sometimes displays the warning message "In
 
 <img src="https://lh6.googleusercontent.com/AbMd49RFlERw1E_OpmURgZxqYHqHOXpPJLtT-ysIB2oAwmVf054jzQndDxJOfqj-FFCR_Beb1LTXvw6T7TvO03aVlHGmEaE1N2J5mg5kUm-dbcaXnlLH-0RLM-SGV0brrlweEyrQ" alt="img" style="zoom:33%;" />
 
-To solve this issue, click on "'Settings" and enter Chain ID of Binance Smart Chain network again. If **56** doesn’t work, try **0x38**. 
+To solve this issue, click on "'Settings" and enter Chain ID of BNB Smart Chain network again. If **56** doesn’t work, try **0x38**. 
 
 <img src="https://lh5.googleusercontent.com/wRHX351ldc2PWT1wXE6U1NYyUkaEmVHVoA0Ex4LKz51prqRgwJcBCs2DhL0lQ3PVmE7Sv2dE02ReXcHlXNaf0lczFZtFl5htOtAzUYkDzu5eySe7y4wpcMaCzY6GaHv6NCXM1qZQ" alt="img"  />
 

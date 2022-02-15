@@ -125,7 +125,7 @@ Example on **mainnet**:
 
 ### List BEP8 Tokens on Binance DEX
 
-The listing process is different from BEP2 token list. BEP8 token issuer can list the Mini-BEP2 token without the agreement of Binance Chain validators. The BEP8 token can only be listed against BNB or BUSD and they cannot be listed as a quote symbol.
+The listing process is different from BEP2 token list. BEP8 token issuer can list the Mini-BEP2 token without the agreement of BNB Beacon Chain validators. The BEP8 token can only be listed against BNB or BUSD and they cannot be listed as a quote symbol.
 
 **The following parameters are required for the transaction:**
 
@@ -151,7 +151,7 @@ The number of BEP8 trading pairs could be much bigger than BEP2 pairs due to the
 The minimum amount of the Mini-BEP2 token should be larger than or equal to **1**, which is presented as 1e8 with the 8 digit decimal rule internally. The only exceptional case is that the user sells the total amount of the free BEP8 token in his account
 
 ### Delist
-Delist a trading pair of Mini-BEP2 token is the same as BEP2 [delist](). It needs the agreement of Binance Chain validators.
+Delist a trading pair of Mini-BEP2 token is the same as BEP2 [delist](). It needs the agreement of BNB Beacon Chain validators.
 
 ## Fee Table for Testnet
 

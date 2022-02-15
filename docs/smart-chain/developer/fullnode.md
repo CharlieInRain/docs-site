@@ -1,4 +1,4 @@
-# How to Run A Fullnode on Binance Smart Chain
+# How to Run A Fullnode on BNB Smart Chain
 
 ## Fullnodes Functions
 
@@ -81,7 +81,7 @@ unzip geth.zip -d /NAME_OF_YOUR_HOME/node &
 
 * Fast Sync
 
-The **default** sync mode. Synchronizes a full node doing a fast synchronization by downloading the entire state database, requesting the headers first, and filling in block bodies and receipts afterward. Once the fast sync reaches the best block of the Binance Smart Chain network, it switches to full sync mode.
+The **default** sync mode. Synchronizes a full node doing a fast synchronization by downloading the entire state database, requesting the headers first, and filling in block bodies and receipts afterward. Once the fast sync reaches the best block of the BNB Smart Chain network, it switches to full sync mode.
 
 * Full Sync
 

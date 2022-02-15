@@ -1,4 +1,4 @@
-# Using Trust Wallet for Binance Smart Chain
+# Using Trust Wallet for BNB Smart Chain
 
 ## Install Trust Wallet
 ### Go to [https://trustwallet.com](https://trustwallet.com/) to install the most recent version of Trust Wallet. 
@@ -49,7 +49,7 @@
 ### Confirm the transaction by tapping on Send. Transaction will be done in seconds.
 <img src="https://community.trustwallet.com/uploads/default/original/2X/8/84abbc16a4aa29b7cbaef006b33fc07d08ad3db3.png" width="280"> <img src="https://community.trustwallet.com/uploads/default/original/2X/5/53838ddadeff6edecd2d9e6ab27b78e4cc206c3d.png" width="280">
 
-## Access Binance Smart Chain DApps
+## Access BNB Smart Chain DApps
 
 ### Switching to Smart Chain Network to access DApps.
 
@@ -61,15 +61,15 @@
 
 <img src="https://community.trustwallet.com/uploads/default/original/2X/b/b858f06f37f48f69ca8bfa3bdfc6f33f662b5779.jpeg" width="280"> <img src="https://community.trustwallet.com/uploads/default/original/2X/2/20b71660b78cf7092a4e1e9d7c2141edd981bccb.png" width="280">
 
-### Trust Wallet is fully compatible with Binance Smart Chain DApps.
+### Trust Wallet is fully compatible with BNB Smart Chain DApps.
 #### More DApps will be added on the built-in browser for convenience.
 
 <img src="https://community.trustwallet.com/uploads/default/original/2X/5/547a4c4775cf765f80f02354a779e0cac7df2c03.png" width="280"> <img src="https://community.trustwallet.com/uploads/default/original/2X/2/2bfb05e249c3c182197a2e4d4f7e00e1d9208058.png" width="280">
 
 ## Resources:
-* [Trust Wallet Now Supports Binance Smart Chain (BSC)](https://community.trustwallet.com/t/trust-wallet-now-supports-binance-smart-chain-bsc/67250/3)
+* [Trust Wallet Now Supports BNB Smart Chain (BSC)](https://community.trustwallet.com/t/trust-wallet-now-supports-binance-smart-chain-bsc/67250/3)
 * [Trust Wallet supports BEP20 Tokens](https://community.trustwallet.com/t/trust-wallet-supports-bep20-tokens/69079/2)
-* [Access Binance Smart Chain DApps with Trust Wallet](https://community.trustwallet.com/t/access-binance-smart-chain-dapps-with-trust-wallet/70660/2)
+* [Access BNB Smart Chain DApps with Trust Wallet](https://community.trustwallet.com/t/access-binance-smart-chain-dapps-with-trust-wallet/70660/2)
 
 
 

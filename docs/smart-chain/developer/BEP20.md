@@ -17,7 +17,7 @@ Then users can use [Remix IDE](https://remix.ethereum.org) and [Metamask](../wal
 
 ## Interact with Contract with [Web3](https://www.npmjs.com/package/web3) and NodeJS.
 
-### Connect to Binance Smart Chain's public RPC endpoint
+### Connect to BNB Smart Chain's public RPC endpoint
 
 ```js
 const Web3 = require('web3');

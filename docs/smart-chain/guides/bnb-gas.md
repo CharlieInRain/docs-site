@@ -6,11 +6,11 @@
 
 ## Why do we need this feature?
 
-When users swap their tokens to the BEP20 equivalents on Binance Smart Chain, they also need to get some BNB to pay for gas.
+When users swap their tokens to the BEP20 equivalents on BNB Smart Chain, they also need to get some BNB to pay for gas.
 
 ## Requirements
 
-* The destination network has to be **Binance Smart Chain**
+* The destination network has to be **BNB Smart Chain**
 * The token is a popular BToken, such as BTC, ETH, USDT, BUSD
 * The total of your swap order has to be greater than **2BNB**
 

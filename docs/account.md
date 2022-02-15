@@ -27,11 +27,11 @@ This is the important information about this account.
 
 ## Create Account
 
-There are two ways of creating an account on Binance Chain: creating a key in a web wallet and creating a key via `bnbcli`. Please make sure you backup your mnemonic.
+There are two ways of creating an account on BNB Beacon Chain: creating a key in a web wallet and creating a key via `bnbcli`. Please make sure you backup your mnemonic.
 
 ### Web Wallet
 
-+ You can create a key via [web wallet](https://testnet.binance.org/create)
++ You can create a key via [web wallet](https://testnet.bnbchain.world/create)
 
 Follow the instructions and set your password (password is used to unlock the keystore file that you will get here):
 
@@ -41,7 +41,7 @@ Then click `Download Keystore File` and you will get a keystore file and be dire
 
 ![create key](./assets/create_key_2.png)
 
-+ You can restore your key [here](https://testnet.binance.org/unlock)
++ You can restore your key [here](https://testnet.bnbchain.world/unlock)
 
 Choose `Mnenomic Phrase`, paste the mnemonic you get above and set your session password:
 

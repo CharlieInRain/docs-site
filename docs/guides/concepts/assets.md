@@ -1,6 +1,6 @@
 # Assets
 
-Assets are stored as `tokens` on Binance Chain, and the below management actions are available. All the assets are complied with [BEP2 standard](https://github.com/binance-chain/BEPs/blob/master/BEP2.md). [BEP](https://github.com/binance-chain/BEPs/blob/master/BEP1.md) stands for Binance Chain Evolution Proposal. Each BEP will be a proposal document providing information to the Binance Chain/DEX community. The BEP should provide a concise technical specification of the feature or improvement and the rationale behind it. Each BEP proposer is responsible for building consensus within the community and documenting dissenting opinions. Each BEP has a unique index number.
+Assets are stored as `tokens` on BNB Beacon Chain, and the below management actions are available. All the assets are complied with [BEP2 standard](https://github.com/binance-chain/BEPs/blob/master/BEP2.md). [BEP](https://github.com/binance-chain/BEPs/blob/master/BEP1.md) stands for BNB Beacon Chain Evolution Proposal. Each BEP will be a proposal document providing information to the BNB Beacon Chain/DEX community. The BEP should provide a concise technical specification of the feature or improvement and the rationale behind it. Each BEP proposer is responsible for building consensus within the community and documenting dissenting opinions. Each BEP has a unique index number.
 
 ## BEP2 Token Properties
 
@@ -18,20 +18,20 @@ Assets are stored as `tokens` on Binance Chain, and the below management actions
 
 [Symbol][b]-[Suffix]
 
-Explanations: Suffix is the first 3 bytes of the issue transaction’s hash, for example: [BUSD-BD1](https://explorer.binance.org/asset/BUSD-BD1). It helps to remove the constraint of requiring unique token names. If this token pegs to an existing blockchain, there should be an additional suffix of “B”.
+Explanations: Suffix is the first 3 bytes of the issue transaction’s hash, for example: [BUSD-BD1](https://explorer.bnbchain.world/asset/BUSD-BD1). It helps to remove the constraint of requiring unique token names. If this token pegs to an existing blockchain, there should be an additional suffix of “B”.
 
 ### Issue Process:
 
-1. Issuer signed an issue transaction and make it broadcasted to one of Binance Chain nodes
-2. This Binance Chain node will check this transaction. If there is no error, then this transaction will be broadcasted to other Binance Chain nodes
+1. Issuer signed an issue transaction and make it broadcasted to one of BNB Beacon Chain nodes
+2. This BNB Beacon Chain node will check this transaction. If there is no error, then this transaction will be broadcasted to other BNB Beacon Chain nodes
 3. Issue transaction is committed on the blockchain by block proposer
 4. Validators will verify the constraints on total supply and symbol and deduct the fee from issuer’s account
-5. New token’s symbol is generated based on the transaction hash. It is added to the issuer’s address and token info is saved on the Binance Chain
+5. New token’s symbol is generated based on the transaction hash. It is added to the issuer’s address and token info is saved on the BNB Beacon Chain
 
 ## BNB
 
-The Binance Coin, `BNB`, is the native asset on Binance Chain. There are 200MM BNB coins in total. There will be no mining. The existing coin burns and freezes will still be in effect on the new Binance Chain blockchain.
+The Binance Coin, `BNB`, is the native asset on BNB Beacon Chain. There are 200MM BNB coins in total. There will be no mining. The existing coin burns and freezes will still be in effect on the new BNB Beacon Chain blockchain.
 
 The exact number of BNB coins will be destroyed based on the same number of BNB ERC20 tokens that have already been destroyed.
 
-Since Binance Chain is live, all BNB ERC20 tokens will be swapped for Binance Chain coins. All users who hold BNB ERC20 tokens can deposit them to Binance.com, and upon withdrawal, the new Binance Chain native coins will be sent to their new wallets.
+Since BNB Beacon Chain is live, all BNB ERC20 tokens will be swapped for BNB Beacon Chain coins. All users who hold BNB ERC20 tokens can deposit them to Binance.com, and upon withdrawal, the new BNB Beacon Chain native coins will be sent to their new wallets.

@@ -1,40 +1,40 @@
-# Binance Smart Chain
+# BNB Smart Chain
 
-## What is Binance Smart Chain?
+## What is BNB Smart Chain?
 
-Binance Smart Chain brings EVM-compatible programmability and native cross-chain communication with Binance Chain using an innovative consensus of [Proof of Staked Authority(PoSA)](../../smart-chain/guides/concepts/consensus.md)
+BNB Smart Chain brings EVM-compatible programmability and native cross-chain communication with BNB Beacon Chain using an innovative consensus of [Proof of Staked Authority(PoSA)](../../smart-chain/guides/concepts/consensus.md)
 
-## Why is Binance Smart Chain designed as a separate chain from Binance Chain?
+## Why is BNB Smart Chain designed as a separate chain from BNB Beacon Chain?
 
-The execution of a Smart Contract may slow down the exchange function and add non-deterministic factors to trading. Even if that compromise could be tolerated, it might be a straightforward idea to introduce a new Virtual Machine specification based on Tendermint, based on the current underlying consensus protocol and major RPC implementation of Binance Chain. But all these will increase the learning requirements for all existing dApp communities, and will not be very welcomed.
+The execution of a Smart Contract may slow down the exchange function and add non-deterministic factors to trading. Even if that compromise could be tolerated, it might be a straightforward idea to introduce a new Virtual Machine specification based on Tendermint, based on the current underlying consensus protocol and major RPC implementation of BNB Beacon Chain. But all these will increase the learning requirements for all existing dApp communities, and will not be very welcomed.
 
-## How does Binance Smart Chain work? What is the architecture and consensus used?
+## How does BNB Smart Chain work? What is the architecture and consensus used?
 
-Binance Smart Chain relies on a system of 21 validators with Proof of Staked Authority (PoSA) consensus that can support short block time and lower fees.
+BNB Smart Chain relies on a system of 21 validators with Proof of Staked Authority (PoSA) consensus that can support short block time and lower fees.
 
-There will be fewer validators on Binance Smart Chain testnet.
+There will be fewer validators on BNB Smart Chain testnet.
 
 ## Can you tell more about Proof of Staked Authority(PoSA)? What is it?
 
 [PoSA](../../smart-chain/guides/concepts/consensus.md) is a combination of PoA and PoS. Blocks are produced by a limited set of validators, they are elected in and out based on a staking based governance. Validators take turns to produce blocks in a PoA manner
 
-## What are the benefits for developers to build on Binance Smart chain?
+## What are the benefits for developers to build on BNB Smart Chain?
 
-* EVM-compatible: Binance Smart Chain supports all the existing Ethereum tooling
+* EVM-compatible: BNB Smart Chain supports all the existing Ethereum tooling
 Fast block time, cheaper cost
-* Native cross-chain trasfer & communication: Binance DEX remains a liquid venue of exchange of assets on Binance Chain and Binance Smart Chain"
+* Native cross-chain trasfer & communication: Binance DEX remains a liquid venue of exchange of assets on BNB Beacon Chain and BNB Smart Chain"
 
-## What are the benefits for developers to build on Binance chain?
+## What are the benefits for developers to build on BNB Beacon Chain?
 
-Binance Chain opens the gate for users to take advantage of the fast transferring and trading
+BNB Beacon Chain opens the gate for users to take advantage of the fast transferring and trading
 
-## How many assets are issued on Binance chain?
+## How many assets are issued on BNB Beacon Chain?
 
-There are already [140 assets](https://explorer.binance.org/assets/bep2) on Binance Chain
+There are already [140 assets](https://explorer.bnbchain.world/assets/bep2) on BNB Beacon Chain
 
 The introduction of [BEP8](https://github.com/binance-chain/BEPs/blob/master/BEP8.md) is an innovative way for tokenization of properties
 
-## What make Binance Smart Chain different?
+## What make BNB Smart Chain different?
 
 Key Innovations:
 
@@ -44,11 +44,11 @@ Key Innovations:
 
 * Expand the use cases of BNB token
 
-## Binance Smart Chain is EVM-compatible. What does that mean?
+## BNB Smart Chain is EVM-compatible. What does that mean?
 
-EVM means Ethereum Virtual Machine. Any smart-contract written to run in EVM can be easily ported to Binance Smart Chain.
+EVM means Ethereum Virtual Machine. Any smart-contract written to run in EVM can be easily ported to BNB Smart Chain.
 
-## Can developers make hybrid Dapps using both Binance Chain and Binance Smart Chain in one single Dapp?
+## Can developers make hybrid Dapps using both BNB Beacon Chain and BNB Smart Chain in one single Dapp?
 
 Yes, with the help of native cross-chain functions
 

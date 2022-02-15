@@ -3,7 +3,7 @@ id: genesis
 title: Genesis File
 ---
 
-This document explains how the genesis file of the Binance Chain mainnet is structured. It also explains how you can build a genesis file for your own testnet.
+This document explains how the genesis file of the BNB Beacon Chain mainnet is structured. It also explains how you can build a genesis file for your own testnet.
 
 Note that you can generate a default genesis file for your own testnet by running the following command:
 
@@ -33,7 +33,7 @@ The `chain_id` is a unique identifier for your chain. It helps differentiate bet
 ```
 ## Consensus Parameters
 
-Next, the genesis file defines consensus parameters. Consensus parameters regroup all the parameters that are related to the consensus layer, which is `Tendermint` in the case of `Binance Chain`. Let us look at these parameters:
+Next, the genesis file defines consensus parameters. Consensus parameters regroup all the parameters that are related to the consensus layer, which is `Tendermint` in the case of `BNB Beacon Chain`. Let us look at these parameters:
 
 - block_size
   - `max_bytes`: Maximum number of bytes per block is 1048576.
@@ -94,9 +94,9 @@ Let us break down the list:
 
 ### Token
 
-The `tokens` module handles tokens. It contains the information of Binance Chain native token `BNB`
+The `tokens` module handles tokens. It contains the information of BNB Beacon Chain native token `BNB`
 ```
-name: "Binance Chain Native Token",
+name: "BNB Beacon Chain Native Token",
 symbol: "BNB",
 total_supply: "20000000000000000",
 owner: "bnb1ultyhpw2p2ktvr68swz56570lgj2rdsadq3ym2",

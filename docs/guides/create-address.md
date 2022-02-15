@@ -2,7 +2,7 @@
 
 ## Create an Address
 
-The first thing you’ll need to do anything on the Binance Chain is an account. Each account has a public key and a private key. It is created by a user of the blockchain. It also includes account number and sequence number for replay protection.
+The first thing you’ll need to do anything on the BNB Beacon Chain is an account. Each account has a public key and a private key. It is created by a user of the blockchain. It also includes account number and sequence number for replay protection.
 
 Because the private key must be kept secret, you can generate the private key with the following command:
 

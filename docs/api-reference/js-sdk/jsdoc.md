@@ -63,7 +63,7 @@
 <a name="module_client.BncClient"></a>
 
 ### client.BncClient
-The Binance Chain client.
+The BNB Beacon Chain client.
 
 **Kind**: static class of [<code>client</code>](#module_client)
 
@@ -101,7 +101,7 @@ The Binance Chain client.
 
 | Param | Type | Default | Description |
 | --- | --- | --- | --- |
-| server | <code>string</code> |  | Binance Chain public url |
+| server | <code>string</code> |  | BNB Beacon Chain public url |
 | useAsyncBroadcast | <code>Boolean</code> | <code>false</code> | use async broadcast mode, faster but less guarantees (default off) |
 
 <a name="module_client.BncClient+initChain"></a>

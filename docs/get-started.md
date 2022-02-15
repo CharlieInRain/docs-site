@@ -1,23 +1,23 @@
-# Get Started with Binance Chain
+# Get Started with BNB Beacon Chain
 
 ## Wallet
 
-The easiest way to use Binance Chain is through a wallet with support for Binance Chain accounts and transfers.
+The easiest way to use BNB Beacon Chain is through a wallet with support for BNB Beacon Chain accounts and transfers.
 
-For example, Binance provides a Web Wallet at [https://www.binance.org](https://www.binance.org)<br/>
-Binance also provides Web Wallet for testnet at [https://testnet.binance.org](https://testnet.binance.org)<br/>
+For example, Binance provides a Web Wallet at [https://www.bnbchain.world](https://www.bnbchain.world)<br/>
+Binance also provides Web Wallet for testnet at [https://testnet.bnbchain.world](https://testnet.bnbchain.world)<br/>
 Both provide the functions below:
 
 - Generating crypto keys and addresses, which serves as the base of a wallet
 - Showing the balances of assets on the addresses
 - Sending and receiving assets
 
-Binance Chain Web Wallet also presents a trading UI similar to Binance.com, where you can examine market data and manage your orders to trade among the listed assets.<br/>
+BNB Beacon Chain Web Wallet also presents a trading UI similar to Binance.com, where you can examine market data and manage your orders to trade among the listed assets.<br/>
 Learn about the list of wallet available [here](wallets.md).
 
 ## Chain Explorer
 Chain Explorer provides a portal to explore blocks and transaction details.<br/>
-On Binance Chain Explorer, you can also check different asset types, the distribution of their ownerships, and owners' transactions.
+On BNB Beacon Chain Explorer, you can also check different asset types, the distribution of their ownerships, and owners' transactions.
 
 ## REST API
 There are [Accelerated Nodes](faq/faq.md#what-is-the-accelerated-node) which provide advanced API services for the public.<br/>
@@ -44,12 +44,12 @@ Please refer to the [CLI Reference](./api-reference/cli.md).
 ### Use SDKs
 
 SDKs are also provided as a starting point for your apps.<br/>
-There are two advanced SDK solutions for Binance chain: [Java](<https://github.com/binance-chain/java-sdk>) and [Golang](<https://github.com/binance-chain/go-sdk>).<br/>
+There are two advanced SDK solutions for BNB Beacon Chain: [Java](<https://github.com/binance-chain/java-sdk>) and [Golang](<https://github.com/binance-chain/go-sdk>).<br/>
 Both solutions provide functions for:<br/>
 
 * Create wallets and manage keys
-* Encode/sign transactions and submit to Binance Chain/DEX, including Transfer, New Order, Cancel Order, etc.
-* Communicate with Binance Chain/DEX Node RPC calls through public node RPC services or your own private full nodes
+* Encode/sign transactions and submit to BNB Beacon Chain/DEX, including Transfer, New Order, Cancel Order, etc.
+* Communicate with BNB Beacon Chain/DEX Node RPC calls through public node RPC services or your own private full nodes
 
 Please refer to specific SDK documentation for more information:
 

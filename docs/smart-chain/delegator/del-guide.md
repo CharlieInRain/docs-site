@@ -10,8 +10,8 @@ Please refer to this guide on [how to create a wallet](../wallet/binance.md) wit
 
 ### Go to the staking page:
 
-- Mainnet: <https://www.binance.org/en/staking>
-- Testnet: <https://testnet-staking.binance.org/en/staking >
+- Mainnet: <https://www.bnbchain.world/en/staking>
+- Testnet: <https://testnet-staking.bnbchain.world/en/staking >
 
 ### Unlock your wallet
 
@@ -21,15 +21,15 @@ Please refer to this guide on [how to create a wallet](../wallet/binance.md) wit
 
 ![img](https://lh6.googleusercontent.com/4o4Aj53r-LincYLkStkIXTi-wTHuAj4BKkS-Yt7pWokTEfiFtjstvMFHt4yiTr5WrNwsqfUFdhWhsnUDCv11UpogqHo08vd41-o7bcFRLSOlsdGmJmLhdfqNHK6Pge4IToISwU-R)
 
-### Swtich to Binance Chain Network
+### Swtich to BNB Beacon Chain Network
 
-If you are using Binance Smart Chain, please follow these steps to switch network:
+If you are using BNB Smart Chain, please follow these steps to switch network:
 
 - Click on "Change Network"
 
 <img src="https://lh3.googleusercontent.com/bvWgOJ931BpcUOjOhzCCdKacevk6-MWrbGL1tFGQXPnJJFf6GmfAw1Ot_TtT2zsWCPOFOPolryPbhOBmrovOXW2kSnpY9_edQZVf_vxRpn4ohzkvfshbW7r-ivJg9Bp8Yxs2ELCZ" alt="img" style="zoom:50%;" />
 
-- Choose "Binance Chain Network"
+- Choose "BNB Beacon Chain Network"
 
 <img src="https://lh3.googleusercontent.com/Jnw7n1ADkE1T1wCi3cYGhLg4YrlQo5X98FmY3YEysgiUr1Efo8QSPketnZ8YK-EmcE2OSVFMSxpHAoq13cyuD51eRwb7QecETgDCYXf_NvpVXu-00QUrFD6pL2of-aS1cdgdW8YE" alt="img" style="zoom:50%;" />
 ## Choose a validator
@@ -56,7 +56,7 @@ You can see the staking history from
 
 ![img](https://lh4.googleusercontent.com/m8hyetwRYQS-HLcubdSkuhjAAFDyWQptswGJKUWaAwcK-m1yVblM-5pXL599ogLJ1DjkKUo75WOzt6JUDxrnUNwNANDa1ZpuyHxlDxRg7enDF8jkhF70SkWeAPq6hAARAcphlaKw)
 
-## Delegate with Binance Chain Command line
+## Delegate with BNB Beacon Chain Command line
 
 ### Download *bnbcli*
 
@@ -84,7 +84,7 @@ tbnbcli staking side-top-validators --top 10 --side-chain-id=chapel --chain-id=B
 
 You can use `bnbcli` or `tbnbcli` to [delegate](../../guides/concepts/bc-staking.md#delegate-bnb) some of BNB to a validator
 
-Go to [explorer](https://explorer.binance.org/) to verify your transactions.
+Go to [explorer](https://explorer.bnbchain.world/) to verify your transactions.
 
 ```bash
 ## mainnet
@@ -109,7 +109,7 @@ You can use `bnbcli`or `tbnbcli` to [redelegate](../../guides/concepts/bc-stakin
 
 ### Get some testnet fund from faucet
 
-Go to this faucet page: <https://testnet.binance.org/faucet-smart>
+Go to this faucet page: <https://testnet.bnbchain.world/faucet-smart>
 
 ### Transfer BNB from BSC to BC
 

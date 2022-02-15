@@ -1,4 +1,4 @@
-# How to manually install the Binance Chain Extension Wallet
+# How to manually install the BNB Beacon Chain Extension Wallet
 
 ## Download the zip file
 

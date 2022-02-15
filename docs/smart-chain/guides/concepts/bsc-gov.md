@@ -76,4 +76,4 @@ And do following step:
 
 ## Workflow
 
-Please read this [doc](../../../guides/concepts/bsc-gov.md) to learn how to send transactions on Binance Chain
+Please read this [doc](../../../guides/concepts/bsc-gov.md) to learn how to send transactions on BNB Beacon Chain

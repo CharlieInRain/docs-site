@@ -450,7 +450,7 @@ http://localhost:8080/api/v1/timelock/timelock/tbnb1g9rzc0e2jf7ef3qp9ax8h0pmpmvj
 
 | Name | Type | Description | Example |
 | ---- | ---- | ----------- | ------- |
-| name | string | token name | Binance Chain Native Token |
+| name | string | token name | BNB Beacon Chain Native Token |
 | symbol | string | unique token trade symbol | BTC-000 |
 | original_symbol | string | token symbol | BTC |
 | total_supply | string (fixed8) | total token supply in decimal form, e.g. 1.00000000 | 0.00000000 |

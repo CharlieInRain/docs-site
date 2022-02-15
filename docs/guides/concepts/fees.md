@@ -3,7 +3,7 @@ id: fees
 title: Fees
 ---
 
-**BNB** is the native token on Binance Chain, thus users are charged BNB for sending transactions.
+**BNB** is the native token on BNB Beacon Chain, thus users are charged BNB for sending transactions.
 
 ### Trading Fees on DEX
 
@@ -19,7 +19,7 @@ Trading fee can be queried at [here](https://dex.binance.org/api/v1/fees?format=
 
 ### Fix Fee Table
 
-The difference between Binance Chain and Ethereum is that there is no notion of `gas`. As a result,
+The difference between BNB Beacon Chain and Ethereum is that there is no notion of `gas`. As a result,
 fees for the rest transactions are fixed. The details are showned in the table below:
 
 ### Current Fees Table on Mainnet
@@ -300,7 +300,7 @@ The `fee_for`parameter indicate the different distribution way:
 
 ## How to query fees in every block
 
-The rewards for Binance Chain validators are displayed in explorer. For example: in block [59947302](https://explorer.binance.org/block/59947302), validator [bnb1tpagqqqx36gq09kzw4f5a3a9sk3tq54dpl5ldn](https://explorer.binance.org/address/bnb1tpagqqqx36gq09kzw4f5a3a9sk3tq54dpl5ldn) get `0.00005 BNB` as rewards.
+The rewards for BNB Beacon Chain validators are displayed in explorer. For example: in block [59947302](https://explorer.bnbchain.world/block/59947302), validator [bnb1tpagqqqx36gq09kzw4f5a3a9sk3tq54dpl5ldn](https://explorer.bnbchain.world/address/bnb1tpagqqqx36gq09kzw4f5a3a9sk3tq54dpl5ldn) get `0.00005 BNB` as rewards.
 
 If you have a fullnode running, you can also get the rewards details exported. To achieve this, you need to set `publishBlockFee` to be true in your `app.toml`. To receive rewards stream, there aretwo options `publishKafka` and `publishLocal`
 

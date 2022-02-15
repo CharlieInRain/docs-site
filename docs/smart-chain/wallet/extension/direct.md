@@ -2,7 +2,7 @@
 
 ## Key Features
 - Seamless Token Transfer
-Transfer tokens (which support BC/BSC) between paired Binance.com account and Binance Chain Wallet. Without the trouble of copy/paste address and memo every time
+Transfer tokens (which support BC/BSC) between paired Binance.com account and BNB Beacon Chain Wallet. Without the trouble of copy/paste address and memo every time
 - BNB Holding
 The BNB  positions of your Binance.com account will not change.
 
@@ -12,7 +12,7 @@ The BNB  positions of your Binance.com account will not change.
 ## User Guide
 ### Prerequisites
 - Binance.com Account SetupEnable two-factor authentication for your Binance.com account (The balance cannot be zero)
-- Install Binance Chain Extension WalletInstall the latest **v1.126.11** :
+- Install BNB Beacon Chain Extension WalletInstall the latest **v1.126.11** :
 	- Chrome App Store Link: https://chrome.google.com/webstore/detail/binance-chain-wallet/fhbohimaelbohpjbbldcngcnapndodjp
 	- Firefox App Store Link: https://addons.mozilla.org/en-US/firefox/addon/binance-chain/?src=search
 - Create an account. You cannot use the accounts imported from your Ledger hardware wallet.

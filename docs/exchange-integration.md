@@ -1,8 +1,8 @@
 ## Public Services
-There are public nodes running by Binance Chain community which will allow you to interact with the blockchain.
+There are public nodes running by BNB Beacon Chain community which will allow you to interact with the blockchain.
 
 ### REST API
-[Accelerated nodes](https://docs.binance.org/faq.html#what-is-the-accelerated-node) provide advanced API services for the public.<br/>
+[Accelerated nodes](https://docs.bnbchain.world/faq.html#what-is-the-accelerated-node) provide advanced API services for the public.<br/>
 List of all the Rest API information available on accelerated node can be found: [here](api-reference/dex-api/paths.md)
 
 ### Node RPC
@@ -19,12 +19,12 @@ Command Line Interface is currently available for Linux, Mac and Windows.<br/>
 Please refer to the [CLI Reference](api-reference/cli.md).
 
 ## SDKs
-There are multiple advanced SDK solutions available for Binance chain.<br/>
+There are multiple advanced SDK solutions available for BNB Beacon Chain.<br/>
 Majority of SDKs provide simplified functions to:
 
 - Create wallets and manage keys
-- Encode/sign transactions and submit to Binance Chain/DEX, including Transfer, New Order, Cancel Order, etc.
-- Communicate with Binance Chain/DEX via Node RPC calls through public node RPC services or your own private full nodes
+- Encode/sign transactions and submit to BNB Beacon Chain/DEX, including Transfer, New Order, Cancel Order, etc.
+- Communicate with BNB Beacon Chain/DEX via Node RPC calls through public node RPC services or your own private full nodes
 
 List of currently available SDKs and their respective documentations:
 
@@ -44,7 +44,7 @@ In brief, transactions pass through several [phases](https://tendermint.com/docs
 
 The status "code" recorded for each of these phases can differ, so be sure to check that it is `0` (meaning success) for each of them. A non-zero "code" indicates that there was a problem with the transaction during processing.
 
-For example, [this transaction](https://explorer.binance.org/tx/F296E84917A92FC4876AFE77DE662CC9417F9D6F2EB8ED1AD723A5433EBB8362) was invalid because the order was already canceled. You can query that the code for this transaction is `405`.
+For example, [this transaction](https://explorer.bnbchain.world/tx/F296E84917A92FC4876AFE77DE662CC9417F9D6F2EB8ED1AD723A5433EBB8362) was invalid because the order was already canceled. You can query that the code for this transaction is `405`.
 ```json
 {
 code: 393621,
@@ -96,7 +96,7 @@ If you haven't received anything after a couple of blocks, resend the transactio
 
 ### The Recommended Way (via WebSocket)
 
-If you want to be sure that the transaction is included in a block, you can subscribe for the result using JSONRPC via a websocket. See [Subscribing to Events via WebSocket](https://docs.binance.org/api-reference/node-rpc.html#631-subscribe).
+If you want to be sure that the transaction is included in a block, you can subscribe for the result using JSONRPC via a websocket. See [Subscribing to Events via WebSocket](https://docs.bnbchain.world/api-reference/node-rpc.html#631-subscribe).
 
 ### The Alternative Way (via RPC Polling)
 

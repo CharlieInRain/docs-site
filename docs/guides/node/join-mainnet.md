@@ -13,12 +13,12 @@ The hardware must meet certain requirements to run a Full Node.
 * 500 GB of free disk space, accessible at a minimum read/write speed of 100 MB/s.
 * 4 cores of CPU and 8 gigabytes of memory (RAM).
 * A broadband Internet connection with upload/download speeds of at least 1 megabyte per second
-* Your full node has to run at least 4 hours per 24 hours in order to catch up with Binance Chain More hours will be better, run your node continuously for best results.
+* Your full node has to run at least 4 hours per 24 hours in order to catch up with BNB Beacon Chain More hours will be better, run your node continuously for best results.
 
 ## Setting Up a New Node
 > You can skip this part if you have executed the install script.
 
-First you need to choose a home folder `$BNCHOME` (i.e. ~/.bnbchaind) for Binance Chain.
+First you need to choose a home folder `$BNCHOME` (i.e. ~/.bnbchaind) for BNB Beacon Chain.
 You can setup this by:
 
 ```
@@ -96,4 +96,4 @@ Prometheus is enabled on port `28660` by default, and the endpoint is `/metrics`
 
 ## Mainnet Tools
 
-* [Explorer](https://explorer.binance.org/)
+* [Explorer](https://explorer.bnbchain.world/)

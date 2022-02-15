@@ -5,7 +5,7 @@ Protect your crypto assets with the first and only independently-certified hardw
 
 ## Instructions
 
-<https://www.binance.org/static/guides/DEX-Ledger-Documentation.html>
+<https://www.bnbchain.world/static/guides/DEX-Ledger-Documentation.html>
 
 
 ## Resource

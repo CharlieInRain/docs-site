@@ -1,4 +1,4 @@
-# Binance Smart Chain Price Feeds from Chainlink
+# BNB Smart Chain Price Feeds from Chainlink
 
 ## Introduction to Price Feeds
 
@@ -8,7 +8,7 @@ Often, smart contracts need to act upon prices of assets in real-time. This is e
 
 ## Get the Latest Price
 
-This section explains how to get the latest price of BNB inside smart contracts using Chainlink Price Feeds, on the Binance Smart Chain.
+This section explains how to get the latest price of BNB inside smart contracts using Chainlink Price Feeds, on the BNB Smart Chain.
 
 **Solidity Contract**
 
@@ -24,7 +24,7 @@ contract PriceConsumerV3 {
     AggregatorV3Interface internal priceFeed;
 
     /**
-     * Network: Binance Smart Chain
+     * Network: BNB Smart Chain
      * Aggregator: BNB/USD
      * Address: 0x0567F2323251f0Aab15c8dFb1967E4e8A7D42aeE
      */
@@ -94,7 +94,7 @@ contract HistoricalPriceConsumerV3 {
     AggregatorV3Interface internal priceFeed;
 
     /**
-     * Network: Binance Smart Chain
+     * Network: BNB Smart Chain
      * Aggregator: BNB/USD
      * Address: 0x0567F2323251f0Aab15c8dFb1967E4e8A7D42aeE
      */
@@ -264,7 +264,7 @@ ___
 
 ## Contract Addresses
 
-Chainlink price feed contracts are updated on a regular basis by multiple Chainlink nodes. This section lists the contract addresses for Price Feeds on the Binance Smart Chain.
+Chainlink price feed contracts are updated on a regular basis by multiple Chainlink nodes. This section lists the contract addresses for Price Feeds on the BNB Smart Chain.
 
 ### Mainnet
 

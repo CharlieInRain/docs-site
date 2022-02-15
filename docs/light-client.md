@@ -1,6 +1,6 @@
-# Run a light client to join Binance Chain
+# Run a light client to join BNB Beacon Chain
 
-Light client is a program that connects to a full node to help users access and interact with Binance chain
+Light client is a program that connects to a full node to help users access and interact with BNB Beacon Chain
 in a secure and decentralized manner without having to sync the full blockchain.
 
 ## Light Client Versus Full Node
@@ -54,7 +54,7 @@ Usage:
 
 Flags:
       --cache-size int             Specify the memory trust store cache size (default 10)
-      --chain-id string            Specify the binance chain ID (default "bnbchain")
+      --chain-id string            Specify the BNB Beacon Chain ID (default "bnbchain")
   -h, --help                       help for lite
       --home-dir string            Specify the home directory (default ".binance-lite")
       --laddr string               Serve the proxy on the given address (default "tcp://localhost:27147")
@@ -75,7 +75,7 @@ The `chain id` of the network that you want join in.<br/>
 You can find chain id at [genesis file in test network](https://github.com/binance-chain/node-binary/blob/master/fullnode/testnet/0.5.8/config/genesis.json)
 or [genesis file in prod network](https://github.com/binance-chain/node-binary/blob/master/fullnode/prod/0.5.8/config/genesis.json).<br/>
 The `full node addr` field can be an address of any full node that you have deployed.<br/>
-You can refer to [Run a Binance Chain full node](fullnode.md) to get more details.<br/>
+You can refer to [Run a BNB Beacon Chain full node](fullnode.md) to get more details.<br/>
 
 We supply a bunch of full nodes that you can connect to for both mainnet and testnet.<br/>
 You cat get full nodes info through a simple python script(notice to replace domain according to different network):<br/>

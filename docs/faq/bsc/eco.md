@@ -1,6 +1,6 @@
-# Binance Smart Chain Ecosystem
+# BNB Smart Chain Ecosystem
 
-## How is Binance Smart Chain Ecosystem?
+## How is BNB Smart Chain Ecosystem?
 
 <https://github.com/binance-chain/bsc-ecosystem>
 
@@ -11,9 +11,9 @@ Future coding competitions; Hackathons
 * Gitcoin: https://gitcoin.co/binancex
 * Dorahacks: https://hackerlink.io/en/grant/1
 
-## What are Pegged tokens on Binance Smart chain?
+## What are Pegged tokens on BNB Smart Chain?
 
-Soon after the launch of Binance Chain, Binance issued several pegged BEP2 tokens that are running on other blockchain networks, including BTC (BTCB), ETH, XRP, LTC, BCH, and ONT. These tokens are backed by real tokens locked in public addresses, and have allowed users to benefit from both the volatility of these tokens as well as the fast transfer and trading experience of Binance Chain.
+Soon after the launch of BNB Beacon Chain, Binance issued several pegged BEP2 tokens that are running on other blockchain networks, including BTC (BTCB), ETH, XRP, LTC, BCH, and ONT. These tokens are backed by real tokens locked in public addresses, and have allowed users to benefit from both the volatility of these tokens as well as the fast transfer and trading experience of BNB Beacon Chain.
 
 Current list:
 
@@ -36,13 +36,13 @@ Current list:
 * YFII: <https://bscscan.com/token/0x7f70642d88cf1c4a3a7abb072b53b929b653eda5>
 * ZEC: <https://bscscan.com/token/0x1ba42e5193dfa8b03d15dd1b86a3113bbbef8eeb>
 
-Details are [here](https://www.binance.org/en/blog/binance-presents-project-token-canal-2/)
+Details are [here](https://www.bnbchain.world/en/blog/binance-presents-project-token-canal-2/)
 
 ## How to Send and Receive BNB on Smart Chain?
 
 [Binance.com](https:/www.binance.com) can withdraw BNB to BSC.
 
-1. If you don't have an existing address of Binance Smart Chain, please use these [wallets](../../smart-chain/wallet.md) to create one.
+1. If you don't have an existing address of BNB Smart Chain, please use these [wallets](../../smart-chain/wallet.md) to create one.
 
 2. On your Binance account, open your BNB wallet then tap on Withdraw. Select BEP20 as the Network. Indicate the amount and paste your BSC address.
 
@@ -54,7 +54,7 @@ Details are [here](https://www.binance.org/en/blog/binance-presents-project-toke
 
 [Binance.com](https:/www.binance.com) can withdraw those pegged tokens to BSC.
 
-1. If you don't have an existing address of Binance Smart Chain, please use these [wallets](../../smart-chain/wallet.md) to create one.
+1. If you don't have an existing address of BNB Smart Chain, please use these [wallets](../../smart-chain/wallet.md) to create one.
 
 2. On your Binance account, open your wallet then tap on Withdraw. Select BEP20 as the Network. Indicate the amount and paste your BSC address.
 

@@ -3,7 +3,7 @@
 
 ## Full Node Node Roles
 
-There are two types of Full Nodes in Binance Chain network: validator nodes and witness nodes.
+There are two types of Full Nodes in BNB Beacon Chain network: validator nodes and witness nodes.
 
 ### What is a Validator Node?
 
@@ -19,7 +19,7 @@ will be introduced and executed. More qualified organization/individual can beco
 
 ### What is a Witness Node?
 
-Witness nodes represent the majority of nodes in a Binance Chain deployment. Although they do not join the consensus process
+Witness nodes represent the majority of nodes in a BNB Beacon Chain deployment. Although they do not join the consensus process
 and produce blocks, they take care of:
 
 - The witness consensus process.
@@ -46,7 +46,7 @@ To see the existing RPC endpoints provided by witness node, check the list  [her
 ### What is an Accelerated Node?
 
 While users can submit transactions and most of the queries via normal, self-run full nodes.<br/>
-Accelerated Node provides more secure and faster lines to access Binance Chain.
+Accelerated Node provides more secure and faster lines to access BNB Beacon Chain.
 
 Accelerated Node is special infrastructure built around Validator to facilitate accelerated transaction
 routing and provide richer, faster user interfaces. There are always several Accelerated Nodes running

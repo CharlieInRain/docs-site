@@ -2,8 +2,8 @@
 
 ## Primer on Governance
 
-Binance Chain has its own built-in governance module that lets BNB holders submit proposals for adding trade pairs. In order for the proposal to be open for voting, it needs to come with a `deposit` that is greater than a parameter called `Deposit`. The `deposit` need not be provided in its entirety by the submitter. If the initial proposer's `deposit` is not sufficient, the proposal enters the `deposit_period` status. Then, any BNB holder can increase the deposit by sending a `depositTx`.
-A purely-code-controlled escrow account will be used to hold deposits during voting period. It is a kind of account which is derived from a hard-coded string in binance chain protocol. This kind of account doesn't have its own private key and it's only controlled by code of the protocol. The code for calculating escrow account is the same that is used in [cosmos-sdk](https://github.com/cosmos/cosmos-sdk/blob/82a2c5d6d86ffd761f0162b93f0aaa57b7f66fe7/x/supply/internal/types/account.go#L40):
+BNB Beacon Chain has its own built-in governance module that lets BNB holders submit proposals for adding trade pairs. In order for the proposal to be open for voting, it needs to come with a `deposit` that is greater than a parameter called `Deposit`. The `deposit` need not be provided in its entirety by the submitter. If the initial proposer's `deposit` is not sufficient, the proposal enters the `deposit_period` status. Then, any BNB holder can increase the deposit by sending a `depositTx`.
+A purely-code-controlled escrow account will be used to hold deposits during voting period. It is a kind of account which is derived from a hard-coded string in BNB Beacon Chain protocol. This kind of account doesn't have its own private key and it's only controlled by code of the protocol. The code for calculating escrow account is the same that is used in [cosmos-sdk](https://github.com/cosmos/cosmos-sdk/blob/82a2c5d6d86ffd761f0162b93f0aaa57b7f66fe7/x/supply/internal/types/account.go#L40):
 ```
 DepositedCoinsAccAddr = sdk.AccAddress(crypto.AddressHash([]byte("BinanceChainDepositedCoins")))
 ```
@@ -38,7 +38,7 @@ Please note:<br/>
 + `--expire-time`: expire time is the deadline after which you will no longer be able to list your token though your proposal is passed.
 + `--voting-period`: The voting period is for validators to vote. The unit is in seconds and the default voting period is one week. The max voting period is two weeks. The votes from validators will be tallied after the voting period ends.
 + `--title`: title of proposal
-+ `--quote-asset-symbol`: the quote asset symbol. When you first list a BEP2 token on Binance DEX, it has to be put in BNB market first. Thus, you should set `quote-asset-symbol` to **BNB** in your first proposal, then your BEP2 asset can be list against [BUSD-BD1](https://explorer.binance.org/asset/BUSD-BD1) and other stablecoins.
++ `--quote-asset-symbol`: the quote asset symbol. When you first list a BEP2 token on Binance DEX, it has to be put in BNB market first. Thus, you should set `quote-asset-symbol` to **BNB** in your first proposal, then your BEP2 asset can be list against [BUSD-BD1](https://explorer.bnbchain.world/asset/BUSD-BD1) and other stablecoins.
 + `--base-asset-symbol`: the asset symbol you want to list
 
 Please note that the deposit and init-price are boosted by **1e8** for decimal part.
@@ -59,7 +59,7 @@ Example on **testnet**:
 --description "list AAA-254/BNB" --expire-time 1570665600 --chain-id=Binance-Chain-Ganges --node=data-seed-pre-2-s1.binance.org:80 --json --voting-period 604800
 ```
 !!! Tip
-        As discussed in [BEP-70](https://github.com/binance-chain/BEPs/blob/master/BEP70.md), BUSD is one of the most influential stable coins worldwide and the most dominant stable coin on Binance Chain. BEP2 token issuers can list their assets against [BUSD-BD1](https://explorer.binance.org/asset/BUSD-BD1) without the requirement of creating BNB pair first. Listing and trading BUSD pairs on Binance Chain will facilitate token owners and exchange traders, making the markets more liquid and healthier.  BEP70 is already implemented and has been activated after Testnet Nightingale Upgrade. Binance Chain Mainnet will be upgraded to support BEP-70 soon.
+        As discussed in [BEP-70](https://github.com/binance-chain/BEPs/blob/master/BEP70.md), BUSD is one of the most influential stable coins worldwide and the most dominant stable coin on BNB Beacon Chain. BEP2 token issuers can list their assets against [BUSD-BD1](https://explorer.bnbchain.world/asset/BUSD-BD1) without the requirement of creating BNB pair first. Listing and trading BUSD pairs on BNB Beacon Chain will facilitate token owners and exchange traders, making the markets more liquid and healthier.  BEP70 is already implemented and has been activated after Testnet Nightingale Upgrade. BNB Beacon Chain Mainnet will be upgraded to support BEP-70 soon.
 
 #### Submit a Delist Proposal
 In testnet, only validators can make a delist proposal. To add a new delist pairs, a validator can run the following command:<br/>
@@ -87,7 +87,7 @@ tbnbcli gov submit-delist-proposal --title "delist EDD-0AC" --voting-period 7200
 ```
 
 #### Add deposit for a Proposal (Optional)
-If the initial deposit for your proposal in `submit-list-proposal` is not enough, you can increase the deposit with `deposit` operation. In current Binance Chain Mainnet, the max deposit period is **two days**. After submitting a proposal, you have two days to increase your deposit, otherwise your proposal will not go into the voting period and gets rejected directly.
+If the initial deposit for your proposal in `submit-list-proposal` is not enough, you can increase the deposit with `deposit` operation. In current BNB Beacon Chain Mainnet, the max deposit period is **two days**. After submitting a proposal, you have two days to increase your deposit, otherwise your proposal will not go into the voting period and gets rejected directly.
 
 Please note the amount is boosted by **1e8** for decimal part.
 

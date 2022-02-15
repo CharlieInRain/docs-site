@@ -1,15 +1,15 @@
 ## Introduction
 
-Binance Chain CLI has a sub-command named `keys` to manage private keys.<br/>
+BNB Beacon Chain CLI has a sub-command named `keys` to manage private keys.<br/>
 It is a key store to manage keys for users.
 
 You can add a new key or import a key from seed.<br/>
 Then you can list the keys added and show the detailed info of a specific key.<br/>
 You can also delete the given key or update the password used to protect private key.<br/>
 
-Binance Chain CLI use the keys you add to sign transactions for you.<br/>
+BNB Beacon Chain CLI use the keys you add to sign transactions for you.<br/>
 For example, if you want to transfer tokens to someone else, you just need to specify the name of
-the key you want to use, and input the password of the key, then Binance Chain CLI will sign the
+the key you want to use, and input the password of the key, then BNB Beacon Chain CLI will sign the
 transaction for you if the password is right.
 
 ## Usage

@@ -1,7 +1,7 @@
 # How to Add a  Token
 ## How to Add Pegged Token
 
-By default, Binance Chain Extension wallet will only show BNB your balance.
+By default, BNB Beacon Chain Extension wallet will only show BNB your balance.
 
 - Open Extension wallet and click `Assets` to see the tokens in your wallet.
 

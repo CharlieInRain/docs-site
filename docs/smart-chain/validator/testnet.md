@@ -21,18 +21,18 @@ geth account import --datadir ./node
 
 ### Get some testnet fund from faucet
 
-Go to this faucet page: <https://testnet.binance.org/faucet-smart>
+Go to this faucet page: <https://testnet.bnbchain.world/faucet-smart>
 
 ### Transfer BNB from BSC to BC
 
-Please refer to this [guide](https://binance-wallet.gitbook.io/binance-chain-extension-wallet/best-practice/transfer-testnet-bnb-from-bsc-to-bc) to transfer BNB with Binance Chain extension wallet.
+Please refer to this [guide](https://binance-wallet.gitbook.io/binance-chain-extension-wallet/best-practice/transfer-testnet-bnb-from-bsc-to-bc) to transfer BNB with BNB Beacon Chain extension wallet.
 
 
 ### Become a validator candidate
 
 You can use `tbnbcli` to [declare your candidacy](../../guides/concepts/bc-staking.md#create-bsc-validator) some of BNB to a validator
 
-Go to [testnet explorer](https://testnet-explorer.binance.org/) to verify your transactions.
+Go to [testnet explorer](https://testnet-explorer.bnbchain.world/) to verify your transactions.
 
 ### Get Genesis file and Config file
 ```bash
@@ -53,4 +53,4 @@ geth --config ./config.toml --datadir ./node --syncmode snap -unlock {validator-
 
 You can use `tbnbcli` to [declare your candidacy](../../guides/concepts/bc-staking.md#create-bsc-validator) some of BNB to a validator
 
-Go to [explorer](https://testnet-explorer.binance.org/) to verify your transactions.
+Go to [explorer](https://testnet-explorer.bnbchain.world/) to verify your transactions.

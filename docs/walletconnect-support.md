@@ -1,6 +1,6 @@
 # Wallets with WalletConnect Support
 
-* List of Wallets Supporting WalletConnect on Binance Chain
+* List of Wallets Supporting WalletConnect on BNB Beacon Chain
 
 
 | Number | Wallet Name                                            | Network                          |

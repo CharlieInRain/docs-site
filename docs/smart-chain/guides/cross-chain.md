@@ -1,8 +1,8 @@
-# Cross-Chain Support for Binance Smart Chain
+# Cross-Chain Support for BNB Smart Chain
 
 The ability ot transfer tokens cross-chain is an essential need. This allows users to transfer their funds from one blockchain network to another. Keeping the importance of cross-chain support in mind, multiple networks now have their respective "bridges" to help in easy fund transfers. Following is a list of bridges and exchanges that support cross-chain transfer of BSC with other tokens.
 
-## List of Cross-chain Apps Supporting Binance Smart Chain
+## List of Cross-chain Apps Supporting BNB Smart Chain
 
 | Type |  Name                                            | Website                          | Tutorial|
 | ------ | ------------------------------------- | -------------------------------- |-------------------------------- |
@@ -16,7 +16,7 @@ The ability ot transfer tokens cross-chain is an essential need. This allows use
 | Fungible Token      |      cBridge    | <https://cbridge.celer.network/> |[link](https://cbridge-docs.celer.network/)|
 | Fungible Token      |      AtomicDEX    | <https://atomicdex.io/> |[link](https://developers.komodoplatform.com/basic-docs/atomicdex/introduction-to-atomicdex.html)|
 | Fungible Token      | Synapse    | <https://synapseprotocol.com/> |[link](https://docs.synapseprotocol.com/how-to/bridge)|
-| NFT     |     pNetwork    | <https://dapp.ptokens.io/> |[link](https://www.binance.org/en/blog/pnetworks-ethereum-bsc-bridge-now-live-on-the-binance-smart-chain/)|
+| NFT     |     pNetwork    | <https://dapp.ptokens.io/> |[link](https://www.bnbchain.world/en/blog/pnetworks-ethereum-bsc-bridge-now-live-on-the-binance-smart-chain/)|
 | NFT     |     curvegrid    | <https://www.curvegrid.com/> |[link](https://www.curvegrid.com/docs)|
 
 

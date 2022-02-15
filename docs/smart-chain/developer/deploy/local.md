@@ -1,4 +1,4 @@
-# Local Binance Smart Chain Network
+# Local BNB Smart Chain Network
 
 See also : [How to set up private network of multiple Geth nodes](https://geth.ethereum.org/docs/interface/private-network)
 

@@ -2,7 +2,7 @@
 
 ## What is it?
 
-Midas Protocol wallet now supports Binance chain. People can store, send, receive BNB coin and all Bep-2 tokens simple and safely.
+Midas Protocol wallet now supports BNB Beacon Chain. People can store, send, receive BNB coin and all Bep-2 tokens simple and safely.
 
 ## Instructions
 

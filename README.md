@@ -1,6 +1,6 @@
-# Binance Chain Documentation
+# BNB Beacon Chain Documentation
 
-This documentation site is automatically deployed to [https://docs.binance.org/](https://docs.binance.org/).
+This documentation site is automatically deployed to [https://docs.bnbchain.world/](https://docs.bnbchain.world/).
 
 The main documentation is stored in the `docs` folder and is generated with [Mkdocs](https://www.mkdocs.org/).
 

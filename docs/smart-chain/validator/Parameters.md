@@ -1,4 +1,4 @@
-# Binance Smart ChainStaking Parameters
+# BNB Smart ChainStaking Parameters
 
 ## Staking Token
 

@@ -1,13 +1,13 @@
 # Trezor User Guide
-This guide will show you how to use your [Trezor Model T](https://shop.trezor.io/product/trezor-model-t) hardware wallet with Binance Chain and Binance DEX.
+This guide will show you how to use your [Trezor Model T](https://shop.trezor.io/product/trezor-model-t) hardware wallet with BNB Beacon Chain and Binance DEX.
 Please follow best security practices when using any hardware wallet to store cryptocurrency.
 
 > Please note that the Trezor Model One is not supported yet.
 
 ## Requirements
-In order to use a Trezor with Binance Chain and Binance DEX, you will need:
+In order to use a Trezor with BNB Beacon Chain and Binance DEX, you will need:
 * A supported web browser: Chrome or Firefox
-* Access to the Binance Chain web wallet (https://binance.org/unlock) using your web browser
+* Access to the BNB Beacon Chain web wallet (https://binance.org/unlock) using your web browser
 * An initialized Trezor Model T device with the most recent firmware updates installed
 * The Trezor Bridge application installed on your computer
 
@@ -34,7 +34,7 @@ Please make sure that you have seed phrase backed up.
 
 ## Setup/Login Instructions
 
-1. Open Binance Chain web wallet <www.binance.org>, then go to [unlock page](https://www.binance.org/en/unlock). You should see that Trezor is already an option for you.
+1. Open BNB Beacon Chain web wallet <www.bnbchain.world>, then go to [unlock page](https://www.bnbchain.world/en/unlock). You should see that Trezor is already an option for you.
 
 ![img](https://lh3.googleusercontent.com/SHsBGqNHNfRqPO85GCQbC84lEq-5f0tkTLp3xMa2sg10FT8leiHe0i5rk9h0luegET3CUXODO2jTBP7I5AwrmoERZg7k61EWLeHToJhXVYqz-r2Kat1q7BtwFOBmAGifLjR1_p0U)
 
@@ -54,7 +54,7 @@ Please make sure that you have seed phrase backed up.
 
 ![img](https://lh4.googleusercontent.com/d2YxOhj8kptDdPmwJ1QIWKn57BeHooCmR_6NYBH1FqRxxlMDm5PaOvz07HV9KGuUR3K-WG70n83v7vvOZ8WOe_kcippxedz3N4JV1DLlPLNXg_tQg0HoDiBrLy_tZS9hh5b4wREX)
 
-> Please note that Trezor only supports the Binance Chain mainnet
+> Please note that Trezor only supports the BNB Beacon Chain mainnet
 
 1) Click on the “Balances” navigation button in the Trading Interface to view your account balances.
 
@@ -64,7 +64,7 @@ Please make sure that you have seed phrase backed up.
 
 ![img](https://lh6.googleusercontent.com/h7xez7MrpBQt8n888v8mmWujn4rNKH88h11zesBkBe-pvCKtqiPM_IE3MZRRGuQi47DOLRAgrVMY3g8a-QXvhkpnJOLacHgyTeUe5FvKT2LAVTX7t8NMfaHdzoP53dbbG4pz4j_2)
 
-## How to send Binance Chain crypto assets
+## How to send BNB Beacon Chain crypto assets
 
 1) Click on the “Balances” navigation button in the Trading Interface to view your account balances.
 
@@ -85,7 +85,7 @@ Please make sure that you have seed phrase backed up.
 
 ![img](https://lh4.googleusercontent.com/CgV9tpPpgGZFowBeka3VUqgA5zCfT7gLxi3m1qujN00lFKGJu8uSoTpP8_VnF5qCasdPHb-S2FQEEKHGm37xjXJhCmxyxvpWN_mQ6CHb6Q4aCaHb4Y4MmOeZrUibQeGLPtyqFON2)
 
-## How to trade Binance Chain crypto assets
+## How to trade BNB Beacon Chain crypto assets
 
 1) You can place your order on trading page
 

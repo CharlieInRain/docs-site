@@ -2,7 +2,7 @@
 
 ## What is BEP2?
 
-A simple token protocol for easy management of asset on Binance chain <https://github.com/binance-chain/BEPs/blob/master/BEP2.md>
+A simple token protocol for easy management of asset on BNB Beacon Chain <https://github.com/binance-chain/BEPs/blob/master/BEP2.md>
 
 BNB is BEP2
 

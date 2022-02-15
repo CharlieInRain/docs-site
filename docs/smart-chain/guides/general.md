@@ -2,7 +2,7 @@
 
 ## Comparision Between BC and BSC
 
-|                   | Binance Chain | Binance Smart Chain                    |
+|                   | BNB Beacon Chain | BNB Smart Chain                    |
 | ----------------- | ------------- | -------------------------------------- |
 | Consensus         | DPoS          | PoSA                                   |
 | No. of Validators | 11            | up to 21                               |

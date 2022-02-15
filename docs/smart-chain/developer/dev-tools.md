@@ -20,7 +20,7 @@ Multiple IDEs and libraries can be used for developing and deploying smart contr
 
 ## Faucet
 
-To get test BNB, developers can use the [faucet](https://testnet.binance.org/faucet-smart).
+To get test BNB, developers can use the [faucet](https://testnet.bnbchain.world/faucet-smart).
 
 ## Gas price
 
